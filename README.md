@@ -49,3 +49,16 @@ change width and heaight of the logo in header
 
 Issue #3
 ```
+
+### Create Branch
+- please follow the branch name format when you create new branch
+
+#### Banch name Format
+```
+(Issue No)-(branch name)
+```
+
+#### example
+```
+1-create-environment
+```
