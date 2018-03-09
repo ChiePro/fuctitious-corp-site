@@ -34,18 +34,32 @@ Issue #(Issue No)
 - `fix`: when you fix bug
 - `docs`: when you edit document or add new document
 - `style`: when you change design(css and so on)
-- `refactor`: when you change existing code
+- `comment`: when you change comment in code
+- `refactor`: when you change existing code other than `style` or `comment`
 - `perf`: when you change code for increased performance
 
 #### Scope
 - please write files or place affected by commit
-- if you have any files affected by commit, please use `*`
+- if you have any files affected by commit, Please use `*` or Please separate them with a `, `
 
 #### example
 ```
-style(header): change style of logo
+style(header, index.html): change style of logo
 
 change width and heaight of the logo in header
 
 Issue #3
+```
+
+### Create Branch
+- please follow the branch name format when you create new branch
+
+#### Banch name Format
+```
+(Issue No)-(branch name)
+```
+
+#### example
+```
+1-create-environment
 ```
