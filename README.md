@@ -37,6 +37,7 @@ Issue #(Issue No)
 - `comment`: when you change comment in code
 - `refactor`: when you change existing code other than `style` or `comment`
 - `perf`: when you change code for increased performance
+- `merge`: when you merge other branch
 
 #### Scope
 - please write files or place affected by commit
@@ -61,5 +62,9 @@ Issue #3
 
 #### example
 ```
-1-create-environment
+docs(README.md): edit README.md
+
+add how to install, develop guideline and so on
+
+Issue #1
 ```
