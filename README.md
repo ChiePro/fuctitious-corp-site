@@ -68,5 +68,3 @@ add how to install, develop guideline and so on
 
 Issue #1
 ```
-
-
