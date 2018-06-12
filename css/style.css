@@ -39,8 +39,19 @@ font-weight: bold;
 border: solid 3px #000000;
 }
 
-#container{
+#picture{
 height:300px;
+/*以下は削除しても構いません*/
+padding: 0.5em 1em;
+margin: 2em 0;
+font-weight: bold;
+border: solid 3px #000000;
+}
+
+
+
+#container{
+height:200px;
 /*以下は削除しても構いません*/
 padding: 0.5em 1em;
 margin: 2em 0;
