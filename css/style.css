@@ -1,82 +1,83 @@
-    /**
-    *  import css files
-    */
+/**
+ *  import css files
+ */
+ @import "./common.css";
 
-    @import "./common.css";
-    @import "./reset.css";
+ @import "./reset.css";
+ 
+ #site-box {
+     width: 1000px;
+     margin: auto;
+ }
 
-    #site-box{
-        width:1000px;
-        margin: auto;
-    }
-    #heaber{
-        /*以下は削除しても構いません*/
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        font-weight: bold;
-        border: solid 3px #000000;
-    }
-    #nav{
-        height:60px;
-        /*以下は削除しても構いません*/
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        font-weight: bold;
-        border: solid 3px #000000;
-    }
-    #picture{
-        height:300px;
-        /*以下は削除しても構いません*/
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        font-weight: bold;
-        border: solid 3px #000000;
-    }
-    #container{
-        height:200px;
-        /*以下は削除しても構いません*/
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        font-weight: bold;
-        border: solid 3px #000000;
-    }
-
-    #left-container{
-        float:left;
-        width: 430px;
-        height:300px;
-        /*以下は削除しても構いません*/
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        font-weight: bold;
-        border: solid 3px #000000;
-    }
-
-    #right-container{
-        float:right;
-        width: 430px;
-        height:300px;
-        /*以下は削除しても構いません*/
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        font-weight: bold;
-        border: solid 3px #000000;
-    }
-
-    #footer{
-        clear:both;
-        height:150px;
-        border-bottom:1px solid #FF9900;
-        /*以下は削除しても構いません*/
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        font-weight: bold;
-        border: solid 3px #000000;
-    }
-
-
-    /* 各 */
-
-    .header_title{
-        float:right;
-    }
+ #heaber {
+     /*以下は削除しても構いません*/
+     padding: 0.5em 1em;
+     margin: 2em 0;
+     font-weight: bold;
+     border: solid 3px #000000;
+ }
+ 
+ #nav {
+     height: 60px;
+     /*以下は削除しても構いません*/
+     padding: 0.5em 1em;
+     margin: 2em 0;
+     font-weight: bold;
+     border: solid 3px #000000;
+ }
+ #picture{
+      height: 300px;
+      /*以下は削除しても構いません*/
+      padding: 0.5em 1em;
+      margin: 2em 0;
+      font-weight: bold;
+      border: solid 3px #000000;
+ }
+ 
+ #container {
+     height: 150px;
+     /*以下は削除しても構いません*/
+     padding: 0.5em 1em;
+     margin: 2em 0;
+     font-weight: bold;
+     border: solid 3px #000000;
+ }
+ 
+ #left-container {
+     float: left;
+     width: 430px;
+     height: 300px;
+     /*以下は削除しても構いません*/
+     padding: 0.5em 1em;
+     margin: 2em 0;
+     font-weight: bold;
+     border: solid 3px #000000;
+ }
+ 
+ #right-container {
+     float: right;
+     width: 430px;
+     height: 300px;
+     /*以下は削除しても構いません*/
+     padding: 0.5em 1em;
+     margin: 2em 0;
+     font-weight: bold;
+     border: solid 3px #000000;
+ }
+ 
+ #footer {
+     clear: both;
+     height: 150px;
+     border-bottom: 1px solid #FF9900;
+     /*以下は削除しても構いません*/
+     padding: 0.5em 1em;
+     margin: 2em 0;
+     font-weight: bold;
+     border: solid 3px #000000;
+ }
+ 
+ /*             各              */
+ .header_title {
+     float: right;
+ }
