@@ -2,9 +2,7 @@
  *  import css files
  */
  @import "./common.css";
-
  @import "./reset.css";
- 
  #site-box {
      width: 1000px;
      margin: auto;
