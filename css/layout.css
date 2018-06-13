@@ -3,37 +3,38 @@
  */
 
 #site-box {
-    width: 1000px;
+    width: 60em;
     margin: auto;
 }
 
 #header {
-    height: 100px;
+    height: 5em;
 }
 
 #picture{
-    height: 300px;
+    height: 20em;
+    
 }
 
 #container{
-    height: 150px;
+    height: 10em;
 }
 
 #left-container{
     float: left;
-    width: 430px;
-    height: 300px;
+    width: 45%;
+    height: 15em;
 }
 
 #right-container{
     float: right;
-    width: 430px;
-    height: 300px;
+    width: 45%;
+    height: 15em;
 }
 
 #footer{
     clear: both;
-    height: 150px;
+    height: 10em;
 }
 .layout{
     padding: 0.5em 1em;
