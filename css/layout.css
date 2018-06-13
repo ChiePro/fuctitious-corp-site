@@ -21,16 +21,11 @@ header {
     height: 15vh;
 }
 
-#l_r_container{
-}
-
 #left_container{
     float: left;
     width: 45%;
     height: 30vh;
     font-weight: bold;
-    border: solid 3px #000000;
-    margin-bottom :2vh;
 }
 
 #right_container{
@@ -38,8 +33,6 @@ header {
     width: 45%;
     height: 30vh;
     font-weight: bold;
-    border: solid 3px #000000;
-    margin-bottom :2vh;
 }
 
 footer{
