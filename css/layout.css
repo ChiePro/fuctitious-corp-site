@@ -2,10 +2,12 @@
  *  layout style
  */
 
+body {
+    text-align : center;
+    width:100%;
+}
 #site_box {
-    width: 70vw;
-    margin: auto;
-    margin-bottom : 2vh 0;
+    margin : 2vh 0 2vh 0;
 }
 
 header {
