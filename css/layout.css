@@ -2,7 +2,7 @@
  *  layout style
  */
 
-#site-box {
+#site_box {
     width: 60em;
     margin: auto;
 }
@@ -20,13 +20,13 @@
     height: 10em;
 }
 
-#left-container{
+#left_container{
     float: left;
     width: 45%;
     height: 15em;
 }
 
-#right-container{
+#right_container{
     float: right;
     width: 45%;
     height: 15em;
@@ -36,7 +36,7 @@
     clear: both;
     height: 10em;
 }
-.frame-layout{
+.frame_layout{
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
