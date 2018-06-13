@@ -4,32 +4,42 @@
 
 #site_box {
     width: 70vw;
-    height:100vh;
+    height: 100vh;
     margin: auto;
 }
 
 header {
     height: 10vh;
+    margin-top:2vh;
 }
 
 #picture{
-    height: 40vh;   
+    height: 40vh; 
 }
 
 #container{
     height: 15vh;
 }
 
+#l_r_container{
+}
+
 #left_container{
     float: left;
     width: 45%;
     height: 30vh;
+    font-weight: bold;
+    border: solid 3px #000000;
+    margin-bottom :2vh;
 }
 
 #right_container{
     float: right;
     width: 45%;
     height: 30vh;
+    font-weight: bold;
+    border: solid 3px #000000;
+    margin-bottom :2vh;
 }
 
 footer{
@@ -38,7 +48,7 @@ footer{
 }
 
 .frame_layout{
-    margin: 2vh 0;
+    margin-bottom :2vh;
     font-weight: bold;
     border: solid 3px #000000;
 }
