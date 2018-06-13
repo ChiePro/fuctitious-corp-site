@@ -1,6 +1,6 @@
 /**
-*  layout style
-*/
+ *  layout style
+ */
 
 #site-box {
     width: 1000px;
@@ -8,10 +8,7 @@
 }
 
 #heaber {
-}
-
-#nav {
-    height: 60px;
+    height: 100px;
 }
 
 #picture{
@@ -38,7 +35,7 @@
     clear: both;
     height: 150px;
 }
-.layout_1{
+.layout{
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;

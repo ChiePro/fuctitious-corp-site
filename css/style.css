@@ -1,10 +1,9 @@
 /**
-*  import css files
-*/
+ * import css files
+ */
 
 @import "./common.css";
 @import "./reset.css";
-@import "./layout.css";
 
 .header_title {
     float: right;
