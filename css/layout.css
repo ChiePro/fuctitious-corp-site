@@ -23,13 +23,13 @@
 
 #left_container{
     float: left;
-    width: 45%;
+    width: 43%;
     height: 30vh;
 }
 
 #right_container{
     float: right;
-    width: 45%;
+    width: 43%;
     height: 30vh;
 }
 
