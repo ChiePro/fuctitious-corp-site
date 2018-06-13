@@ -2,12 +2,8 @@
  *  layout style
  */
 
-body {
-    text-align : center;
-    width:100%;
-}
 #site_box {
-    margin : 2vh 0 2vh 0;
+    margin :0 20vw;
 }
 
 header {
@@ -37,4 +33,7 @@ header {
 footer{
     clear: both;
     height: 10vh;
+}
+.bottom_lyaout{
+    margin-bottom :2vh;
 }
