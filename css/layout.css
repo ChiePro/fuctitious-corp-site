@@ -1,0 +1,43 @@
+/**
+ *  layout style
+ */
+
+#site-box {
+    width: 1000px;
+    margin: auto;
+}
+
+#header {
+    height: 100px;
+}
+
+#picture{
+    height: 300px;
+}
+
+#container{
+    height: 150px;
+}
+
+#left-container{
+    float: left;
+    width: 430px;
+    height: 300px;
+}
+
+#right-container{
+    float: right;
+    width: 430px;
+    height: 300px;
+}
+
+#footer{
+    clear: both;
+    height: 150px;
+}
+.layout{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
