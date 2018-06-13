@@ -4,7 +4,4 @@
 
 @import "./common.css";
 @import "./reset.css";
-
-.header_title {
-    float: right;
-}
+@import "layout.css";
