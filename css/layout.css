@@ -4,13 +4,12 @@
 
 #site_box {
     width: 70vw;
-    height: 100vh;
     margin: auto;
 }
 
 header {
     height: 10vh;
-    margin-top:2vh;
+    margin-top: 2vh;
 }
 
 #picture{
@@ -25,14 +24,12 @@ header {
     float: left;
     width: 45%;
     height: 30vh;
-    font-weight: bold;
 }
 
 #right_container{
     float: right;
     width: 45%;
     height: 30vh;
-    font-weight: bold;
 }
 
 footer{
@@ -41,7 +38,6 @@ footer{
 }
 
 .frame_layout{
-    margin-bottom :2vh;
-    font-weight: bold;
+    margin-bottom : 2vh;
     border: solid 3px #000000;
 }
