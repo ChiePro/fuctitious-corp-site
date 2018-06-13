@@ -3,38 +3,39 @@
  */
 
 #site_box {
-    width: 60vw;
+    width: 70vw;
+    height:100vh;
     margin: auto;
 }
 
 #header {
-    height: 5vw;
+    height: 10vh;
 }
 
 #picture{
-    height: 20vw;
+    height: 40vh;
     
 }
 
 #container{
-    height: 10vw;
+    height: 15vh;
 }
 
 #left_container{
     float: left;
     width: 45%;
-    height: 15vw;
+    height: 30vh;
 }
 
 #right_container{
     float: right;
     width: 45%;
-    height: 15vw;
+    height: 30vh;
 }
 
 #footer{
     clear: both;
-    height: 10vw;
+    height: 10vh;
 }
 .frame_layout{
     padding: 0.5em 1em;
