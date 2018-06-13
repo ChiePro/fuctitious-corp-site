@@ -38,8 +38,8 @@
     height: 10vh;
 }
 .frame_layout{
-    padding: 0.5em 1em;
-    margin: 2em 0;
+    padding: 0.5vw 1vw;
+    margin: 2vw 0;
     font-weight: bold;
     border: solid 3px #000000;
 }
