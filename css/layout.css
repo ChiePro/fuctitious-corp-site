@@ -5,6 +5,7 @@
 #site_box {
     width: 70vw;
     margin: auto;
+    margin-bottom : 2vh;
 }
 
 header {
@@ -35,9 +36,4 @@ header {
 footer{
     clear: both;
     height: 10vh;
-}
-
-.frame_layout{
-    margin-bottom : 2vh;
-    border: solid 3px #000000;
 }
