@@ -3,7 +3,7 @@
  */
 
 #site_box {
-    margin :0 20vw;
+    margin : 2vh 0;
 }
 
 header {
@@ -20,14 +20,10 @@ header {
 
 #left_container{
     float: left;
-    width: 45%;
-    height: 30vh;
 }
 
 #right_container{
     float: right;
-    width: 45%;
-    height: 30vh;
 }
 
 footer{
@@ -37,4 +33,9 @@ footer{
 
 .bottom_lyaout{
     margin-bottom :2vh;
+}
+
+.size_container{
+    width: 45%;
+    height: 30vh;
 }
