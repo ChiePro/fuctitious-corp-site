@@ -4,7 +4,7 @@
 
 #site_box {
     margin: 2vh 0;
-    width: 100vh;
+    width: 100%;
 }
 
 #l_r_container{
@@ -17,11 +17,6 @@
 
 #right_container{
     float: right;
-}
-
-footer{
-    clear: both;
-    height: 10vh;
 }
 
 .bottom_lyaout{
