@@ -3,16 +3,17 @@
  */
 
 #site_box {
-    margin: 20vh 20vw 0vh 20vw;
-    width: 60vw;
+    margin: 0 10vw;
 }
 
 header{
-    position: fixed; /* 固定 */
-    background-color: #575355; /* 削除対象 */
+    position: fixed;
     width: 100vw;
 }
-
+#image_box{
+    padding-top: 10vh;
+    width: 100%;
+}
 #l_r_container{
     height: 30vh;
 }
