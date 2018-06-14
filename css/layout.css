@@ -3,19 +3,8 @@
  */
 
 #site_box {
-    margin : 2vh 0;
-}
-
-header {
-    height: 10vh;
-}
-
-#picture{
-    height: 40vh; 
-}
-
-#container{
-    height: 15vh;
+    margin: 2vh 0;
+    width: 100vh;
 }
 
 #left_container{
