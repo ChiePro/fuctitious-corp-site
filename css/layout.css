@@ -9,6 +9,7 @@
 header{
     position: fixed;
     width: 100vw;
+    height: 10vh;
 }
 #image_box{
     padding-top: 10vh;
