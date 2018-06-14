@@ -7,6 +7,10 @@
     width: 100vh;
 }
 
+#l_r_container{
+    height: 30vh;
+}
+
 #left_container{
     float: left;
 }
@@ -15,11 +19,15 @@
     float: right;
 }
 
+footer{
+    clear: both;
+    height: 10vh;
+}
+
 .bottom_lyaout{
     margin-bottom: 2vh;
 }
 
 .size_container{
     width: 45%;
-    height: 30vh;
 }
