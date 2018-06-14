@@ -1,0 +1,36 @@
+/**
+ *  layout style
+ */
+
+#site_box{
+    margin: 0 10vw;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+}
+#image_box{
+    padding-top: 10vh;
+    width: 100%;
+}
+#l_r_container{
+    height: 30vh;
+}
+
+#left_container{
+    float: left;
+}
+
+#right_container{
+    float: right;
+}
+
+.bottom_lyaout{
+    margin-bottom: 2vh;
+}
+
+.size_container{
+    width: 45%;
+}
