@@ -15,13 +15,8 @@
     float: right;
 }
 
-footer{
-    clear: both;
-    height: 10vh;
-}
-
 .bottom_lyaout{
-    margin-bottom :2vh;
+    margin-bottom: 2vh;
 }
 
 .size_container{
