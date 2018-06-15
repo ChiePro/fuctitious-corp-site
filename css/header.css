@@ -3,51 +3,56 @@
  */
 
 .h_logo{
-    margin: 0 5vw;
-    width: 20vw;
-    height: 10vh;
-    text-align: left;
- }
-
-.h_img{
     width: auto;
     height: 100%;
-}
+    text-align:left;
+ }
+
+ .h_img{
+    margin: 0 3vw;;
+ }
 
 .side_bar{
     display: inline-block;
     vertical-align: middle;
 }
-
-.h_box{
+nav{
+    width: auto;
+    height: 100%;
     text-align:left;
 }
 
-.menu_bar li{
+.h_box{
+    text-align:left;
+    background: rgb(189, 189, 189);
+    width: auto;
+
+}
+
+.side_bar nav ul li{
     font-size: 1em;
-    padding: 1em 4em;
+    padding: 1em 6em;
     float:left;
     border-right: 1px solid #DDD;
 }
 
-.menu_bar li a{
+.side_bar nav ul li a{
     text-decoration: none;
     color: #333;
-
 }
 
-.menu_bar li a span{
+.side_bar nav ul li a span{
     display: block;
     margin: 3px 0 0 0;
     text-align: center;
     letter-spacing: 1px;
 }
 
-.menu_bar li a:hover {
+.side_bar nav li a:hover {
     background: #3434EE;
 }
 
-.menu_bar li.active a {
+.side_bar2 nav li.active a {
     background: #333;
     color: #EEE;
 }
