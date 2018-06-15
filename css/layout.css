@@ -10,6 +10,8 @@ header{
     position: fixed;
     width: 100vw;
     height: 10vh;
+    background: rgb(189, 189, 189);
+    opacity: 0.8;
 }
 #image_box{
     padding-top: 10vh;
