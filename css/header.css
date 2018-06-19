@@ -24,7 +24,7 @@ nav{
 
 .h_box{
     text-align:left;
-    background: rgb(189, 189, 189);
+    background: rgb(224, 223, 223);
     width: auto;
 
 }
@@ -33,26 +33,17 @@ nav{
     font-size: 1em;
     padding: 1em 6em;
     float:left;
-    border-right: 1px solid #DDD;
+    border-right: 1px solid rgb(122, 122, 122);
 }
 
-.side_bar nav ul li a{
-    text-decoration: none;
-    color: #333;
-}
-
-.side_bar nav ul li a span{
+.side_bar span{
     display: block;
     margin: 3px 0 0 0;
     text-align: center;
     letter-spacing: 1px;
 }
 
-.side_bar nav li a:hover {
-    background: #3434EE;
-}
-
-.side_bar2 nav li.active a {
-    background: #333;
-    color: #EEE;
+.side_bar li:hover{
+    color:#383838; background:#c4c4c4;
+    transition: all 2s;
 }
