@@ -5,7 +5,7 @@
 .h_logo{
     width: auto;
     height: 100%;
-    text-align:left;
+    text-align: left;
  }
 
  .h_img{
@@ -44,8 +44,9 @@ nav{
     color: #1a1a1a;
 }
 
+/* transition …… transition効果（時間的変化）をまとめて指定する */
 .side_bar li:hover{
     color: #383838;
     background:#c4c4c4;
-    transition: all .8s;    /*transition …… transition効果（時間的変化）をまとめて指定する
+    transition: all .8s;
 }
