@@ -16,14 +16,15 @@
     display: inline-block;
     vertical-align: middle;
 }
+
 nav{
     width: auto;
     height: 100%;
-    text-align:left;
+    text-align: left;
 }
 
 .h_box{
-    text-align:left;
+    text-align: left;
     background: rgb(224, 223, 223);
     width: auto;
 }
@@ -31,7 +32,7 @@ nav{
 .side_bar nav ul li{
     font-size: 1em;
     padding: 1em 6em;
-    float:left;
+    float: left;
     border-right: 1px solid rgb(122, 122, 122);
 }
 
@@ -44,6 +45,7 @@ nav{
 }
 
 .side_bar li:hover{
-    color:#383838; background:#c4c4c4;
-    transition: all .8s;
+    color: #383838;
+    background:#c4c4c4;
+    transition: all .8s;    /*transition …… transition効果（時間的変化）をまとめて指定する
 }
