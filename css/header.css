@@ -26,7 +26,6 @@ nav{
     text-align:left;
     background: rgb(224, 223, 223);
     width: auto;
-
 }
 
 .side_bar nav ul li{
@@ -41,9 +40,10 @@ nav{
     margin: 3px 0 0 0;
     text-align: center;
     letter-spacing: 1px;
+    color: #1a1a1a;
 }
 
 .side_bar li:hover{
     color:#383838; background:#c4c4c4;
-    transition: all 2s;
+    transition: all .8s;
 }
