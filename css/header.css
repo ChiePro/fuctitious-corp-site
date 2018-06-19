@@ -9,7 +9,7 @@
  }
 
  .h_img{
-    margin: 0 3vw;;
+    margin: 0 3vw;
  }
 
 .side_bar{
@@ -25,15 +25,15 @@ nav{
 
 .h_box{
     text-align: left;
-    background: rgb(224, 223, 223);
+    background: #d4d4d4;
     width: auto;
 }
 
 .side_bar nav ul li{
     font-size: 1em;
-    padding: 1em 6em;
+    padding: 1vh 5vw;
     float: left;
-    border-right: 1px solid rgb(122, 122, 122);
+    border-right: 1px solid #383838;
 }
 
 .side_bar span{
@@ -47,6 +47,6 @@ nav{
 /* transition …… transition効果（時間的変化）をまとめて指定する */
 .side_bar li:hover{
     color: #383838;
-    background:#c4c4c4;
+    background: #c4c4c4;
     transition: all .8s;
 }
