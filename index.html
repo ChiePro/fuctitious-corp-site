@@ -74,12 +74,12 @@
     </header>
 
     <!-- image picture -->
-    <div id="image_box" class="bottom_lyaout">
-        <ul class="slider">
-            <li><img src="./img/WM.jpg" alt="" class="img_size"></li>
-            <li><img src="./img/WM (2).jpg" alt=""class="img_size"></li>
-            <li><img src="./img/WM (3).jpg" alt="" class="img_size"></li>
-        </ul>
+    <div id="image_box" class="bottom_lyaout top_text">
+        <div class="slider">
+            <div><span class="text">ChiePro</br>Programming</span><img src="./img/WM.jpg" alt="image" class="img_size"></div>
+            <div><img src="./img/WM (2).jpg" alt="iamge"class="img_size"></div>
+            <div><img src="./img/WM (3).jpg" alt="image" class="img_size"></div>
+        </div> 
     </div>
 
     <div id="site_box">
@@ -113,7 +113,9 @@
         $(document).ready(function(){
           $('.slider').bxSlider({
             auto: true,
-            minSlides: 1
+            minSlides: 1,
+            pager: false, /* スライドバー削除 */
+            controls: false, /* コントローラーバー削除 */
           });
         });
     </script>

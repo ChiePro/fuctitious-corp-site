@@ -6,3 +6,23 @@
     width: 100%;
     height: 90vh;
 }
+
+/* スライドの枠の削除 */
+.bx-wrapper {
+    margin: 0 !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+  }
+
+.slider div{
+    position: relative;
+}
+
+span.text{
+    font-size: 5em;
+    position: absolute;
+    text-align: center;
+}
