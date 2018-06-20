@@ -8,11 +8,3 @@
 @import "./header.css";
 @import "./flexslider.css";
 @import "./slider.css";
-
-.bx-wrapper .bx-viewport {
-	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	border:none;
-	background-color:transparent;
-} 

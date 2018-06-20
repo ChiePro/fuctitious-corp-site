@@ -8,9 +8,7 @@
     text-align: left;
  }
 
- .h_img{
-    margin: 0 3vw;
- }
+
 
 .side_bar{
     display: inline-block;
@@ -50,12 +48,3 @@ nav{
     background: #c4c4c4;
     transition: all .8s;
 }
-
-.bx-wrapper {
-    margin: 0 !important;
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    border: none !important;
-    background: none !important;
-  }
