@@ -10,12 +10,14 @@ header{
     position: fixed;
     width: 100vw;
     height: 10%;
+    z-index: 1;     /* メニューバーを手前に持ってきてます */
 }
 
 #image_box{
     padding-top: 10vh;
     width: 100%;
 }
+
 #l_r_container{
     height: 30vh;
 }

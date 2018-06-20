@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -17,6 +18,7 @@
 
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 
 <body>
@@ -73,8 +75,11 @@
 
     <!-- image picture -->
     <div id="image_box" class="bottom_lyaout">
-        <img src="#" alt="画像">
-        <p>画像</p>
+        <ul class="slider">
+            <li><img src="./img/WM.jpg" alt="" class="img_size"></li>
+            <li><img src="./img/WM (2).jpg" alt=""class="img_size"></li>
+            <li><img src="./img/WM (3).jpg" alt="" class="img_size"></li>
+        </ul>
     </div>
 
     <div id="site_box">
@@ -104,5 +109,14 @@
         <p>footer</p>
     </footer>
 
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider({
+            auto: true,
+            minSlides: 1
+          });
+        });
+    </script>
+    
 </body>
 </html>
