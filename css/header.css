@@ -8,7 +8,9 @@
     text-align: left;
  }
 
-
+ .h_img{
+    margin: 0 3vw;
+ }
 
 .side_bar{
     display: inline-block;

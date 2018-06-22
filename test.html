@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -19,22 +18,26 @@
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.meanmenu.min.js"></script>
+
 </head>
 
 <body>
 
-    <!-- header -->
-        <ul class="h_box">
-            <li class="side_bar">
-                <div class="h_logo">
-                    <a href="index.html"> 
-                        <img src="./img/logo.png" alt="logo" width="200" height="100" class="h_img">
-                    </a>
-                </div>
-            </li>
-            <!-- global navigation menu -->
-            <li class="side_bar">
-                <nav>
+     <!-- header -->
+     <header>
+         <div id="menu">
+            <ul class="h_box">
+                <li class="side_bar">
+                    <div class="h_logo">
+                        <a href="index.html"> 
+                            <img src="./img/logo.png" alt="logo" width="200" height="100" class="h_img">
+                        </a>
+                    </div>
+                </li>
+                <!-- global navigation menu -->
+                <li class="side_bar">
+                                       <nav>
                     <ul class="menu_bar">
                     <a href="index.html">    
                         <li>
@@ -68,8 +71,11 @@
                     </a>
                     </ul>
                 </nav>
-            </li>
-        </ul>
+                        
+                </li>
+            </ul>
+        </div>
+        </header>
 
     <!-- image picture -->
     <div id="image_box" class="bottom_lyaout">
@@ -79,7 +85,6 @@
             <div><img src="./img/top_img2.jpg" alt="image"class="img_size"></div>
             <div><img src="./img/top_img3.jpg" alt="image"class="img_size"></div>
             <div><img src="./img/top_img4.jpg" alt="image"class="img_size"></div>
-            <div><img src="./img/top_main.jpg" alt="image"class="img_size"></div>
         </div> 
     </div>
 
@@ -112,6 +117,15 @@
 
     <script>
         $(document).ready(function(){
+            　$('nav').meanmenu({
+     meanMenuClose: "x", // クローズボタン
+    meanMenuCloseSize: "18px", // クローズボタンのフォントサイズ
+    meanMenuOpen: "<span /><span /><span />", // 通常ボタン
+    meanRevealPosition: "right", // 表示位置
+    meanRevealColour: "", // 背景色
+    meanScreenWidth: "480", // 表示させるウィンドウサイズ(ブレイクポイント)
+});
+
           $('.slider').bxSlider({
             auto: true,
             minSlides: 1,
