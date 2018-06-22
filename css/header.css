@@ -30,7 +30,7 @@ nav{
 }
 
 .side_bar nav ul li{
-    font-size: 1em;
+    font-size: 1rem;
     padding: 1vh 5vw;
     float: left;
     border-right: 1px solid #383838;
