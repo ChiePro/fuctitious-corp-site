@@ -28,7 +28,7 @@ nav{
 }
 
 .side_bar nav ul li{
-    font-size: 1em;
+    font-size: 1rem;
     padding: 1vh 5vw;
     float: left;
     border-right: 1px solid #383838;
@@ -36,9 +36,9 @@ nav{
 
 .side_bar span{
     display: block;
-    margin: 0.3em 0 0 0;
+    margin: 0.8vh 0;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     color: #1a1a1a;
 }
 
