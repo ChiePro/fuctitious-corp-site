@@ -9,8 +9,13 @@
 header{
     position: fixed;
     width: 100vw;
+<<<<<<< HEAD
     height: 10%;
     z-index: 1;     /* メニューバーを手前に持ってきてます */
+=======
+    height: 10vh;
+    background-color: #c9c9c9
+>>>>>>> origin/20-create-title
 }
 
 #image_box{
