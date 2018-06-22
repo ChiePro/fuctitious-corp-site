@@ -12,37 +12,3 @@
     height: 100%;
     width: auto;
 }
-
-.top_bar{
-    display: table;
-    width: 80%;
-    height: 100%;
-    float: left;
-}
-
-nav{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.top_bar nav ul li{
-    font-size: 1rem;
-    padding: 1vh 5vw;
-    float: left;
-    border-right: 1px solid #383838;
-}
-
-.top_bar span{
-    display: block;
-    margin-top: 0.8vh;
-    text-align: center;
-    letter-spacing: .1rem;
-    color: #1a1a1a;
-}
-
-/* transition …… transition効果（時間的変化）をまとめて指定する */
-.top_bar li:hover{
-    color: #383838;
-    background: #645858;
-    transition: all .8s;
-}
