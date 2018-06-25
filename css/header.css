@@ -2,13 +2,13 @@
  *  header style
  */
 
-.top_logo{
+.logo{
     width: 20%;
     height: 100%;
     float: left;
  }
  
-.top_logo img{
+.logo img{
     height: 100%;
     width: auto;
 }
