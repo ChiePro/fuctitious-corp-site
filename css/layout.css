@@ -22,11 +22,11 @@ header{
     height: 30vh;
 }
 
-#left_container{
+.left_container{
     float: left;
 }
 
-#right_container{
+.right_container{
     float: right;
 }
 
