@@ -1,0 +1,35 @@
+/**
+ * nav css files
+ */
+
+.nav_menu{
+    display: table;
+    height: 100%;
+}
+
+nav{
+    width: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nav_menu ul li{
+    font-size: 1rem;
+    padding: 1vh 5vw;
+    float: left;
+    border-right: 1px solid #383838;
+}
+
+.nav_menu span{
+    display: block;
+    text-align: center;
+    padding: .6vh;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+}
+
+.nav_menu li:hover{
+    color: #383838;
+    background: #c4c4c4;
+    transition: all .8s;
+}

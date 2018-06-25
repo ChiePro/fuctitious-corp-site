@@ -5,6 +5,5 @@
 @import "./common.css";
 @import "./reset.css";
 @import "./layout.css";
-@import "./header.css";
-@import "./slider.css";
-@import "./meanmenu.css";
+@import "./nav.css";
+@import "./logo.css";
