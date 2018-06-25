@@ -5,6 +5,7 @@
 .nav_menu{
     display: table;
     height: 100%;
+    margin-top: 1vh;
 }
 
 nav{
@@ -32,4 +33,10 @@ nav{
     color: #383838;
     background: #c4c4c4;
     transition: all .8s;
+}
+
+.nav_layout{
+    width: auto;
+    height: 100%;
+    margin-top: 1vh;
 }
