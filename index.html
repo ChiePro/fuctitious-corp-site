@@ -19,6 +19,7 @@
 
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.meanmenu.min.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
 
         <!-- global navigation menu -->
         <div class="nav_menu">
-            <nav>
+            <nav id="gnav">
                 <ul>
                 <a href="index.html">    
                     <li>
@@ -102,6 +103,19 @@
     <footer>
         <p>footer</p>
     </footer>
+
+    <script>
+        $(function() {
+            $('#gnav').meanmenu({
+                meanMenuClose: "x", // クローズボタン
+                meanMenuCloseSize: "18px", // クローズボタンのフォントサイズ
+                meanMenuOpen: "<span /><span /><span />", // 通常ボタン
+                meanRevealPosition: "right", // 表示位置
+                meanRevealColour: "", // 背景色
+                meanScreenWidth: "800", // 表示させるウィンドウサイズ(ブレイクポイント)
+            });
+        });
+    </script>
 
 </body>
 </html>
