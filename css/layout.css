@@ -13,12 +13,12 @@ header{
     background-color: #E6E6E6;
 }
 
-#image_slider{
-    padding-top: 5vh;
+.image_slider{
+    padding-top: 10vh;
     width: 100%;
 }
 
-#l_r_container{
+.l_r_container{
     height: 30vh;
 }
 
@@ -30,7 +30,7 @@ header{
     float: right;
 }
 
-.bottom_lyaout{
+.margin_bottom{
     margin-bottom: 2vh;
 }
 
