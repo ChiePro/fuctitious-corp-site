@@ -9,8 +9,8 @@
 header{
     position: fixed;
     width: 100vw;
-    height: 9vh;
-    background-color: #E6E6E6;
+    height: 10vh;
+    background: #E6E6E6;
     z-index: 999;
 }
 
