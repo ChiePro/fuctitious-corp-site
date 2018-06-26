@@ -8,32 +8,33 @@
 }
 
 .nav_wrap{
-    height: 100%;
     width: 80%;
+    height: 100%;
     float: left;
 }
 
 nav{
     width: auto;
     display: table-cell;
+    /* navigationをセンター寄せ */
     vertical-align: middle;
 }
 
 .nav_menu ul li{
-    font-size: 1rem;
-    padding: .7vh 5vw;
+    padding: 0.8vh 2vw;
     float: left;
-    border-right: 1px solid #383838;
+    border-right: .01rem solid #383838;
 }
 
 .nav_menu span{
-    display: block;
+    display: block; 
     text-align: center;
-    padding: .6vh;
-    letter-spacing: 1px;
+    padding: .2vh;
+    letter-spacing: .1rem;
     color: #1a1a1a;
 }
 
+/* カーソルが乗っている時のスタイル */
 .nav_menu li:hover{
     color: #383838;
     background: #c4c4c4;
