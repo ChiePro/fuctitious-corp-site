@@ -9,29 +9,28 @@
 header{
     position: fixed;
     width: 100vw;
-    height: 10%;
-    /* メニューバーを手前に持ってきてます */
-    z-index: 1;
+    height: 10vh;
+    background-color: #E6E6E6;
 }
 
-#image_box{
-    padding-top: 5vh;
+.image_slider{
+    padding-top: 10vh;
     width: 100%;
 }
 
-#l_r_container{
+.l_r_container{
     height: 30vh;
 }
 
-#left_container{
+.left_container{
     float: left;
 }
 
-#right_container{
+.right_container{
     float: right;
 }
 
-.bottom_lyaout{
+.layout_margin_b{
     margin-bottom: 2vh;
 }
 
