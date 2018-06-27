@@ -16,7 +16,6 @@
     border: none !important;
     background: none !important;
   }
-<<<<<<< HEAD
  
 section{
     position: relative;
@@ -24,7 +23,7 @@ section{
   /* top1_image テキスト */
 .image_layout_text{
     color: rgb(255, 255, 255);
-    background-color: rgba(94, 94, 94, 0.5);
+    background-color: rgba(58, 58, 58, 0.7);
     width: 30vw;
     padding: 3vh;
     /* imageの端からの幅　*/
@@ -65,5 +64,3 @@ section{
 .image_top_text h1{
     font-size: 4vw;
 }
-=======
->>>>>>> 503cb1d0e4c79995e6cf6eb0174e3c42ee15522d

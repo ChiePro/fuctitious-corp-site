@@ -10,11 +10,7 @@ header{
     position: fixed;
     width: 100vw;
     height: 10vh;
-<<<<<<< HEAD
     background-color: rgb(231, 231, 231);
-=======
-    background-color: #E6E6E6;
->>>>>>> 503cb1d0e4c79995e6cf6eb0174e3c42ee15522d
 }
 
 .image_slider{
