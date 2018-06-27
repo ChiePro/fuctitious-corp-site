@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    
     <!-- favicon -->
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <!-- FIXME: 適応する画像がありません。画像の追加待ち
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    -->
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -25,59 +28,46 @@
 
     <!-- header -->
     <header>
-        <ul class="h_box">
-            <li class="side_bar">
-                <div class="h_logo">
-                    <a href="index.html"> 
-                        <img src="./img/logo.png" alt="logo" width="200" height="100" class="h_img">
-                    </a>
-                </div>
-            </li>
-            <!-- global navigation menu -->
-            <li class="side_bar">
-                <nav>
-                    <ul class="menu_bar">
-                    <a href="index.html">    
-                        <li>
-                            <span>ホーム</span>
-                            <span>home</span>
-                        </li>
-                    </a>
-                    <a href="index.html">
-                        <li>
-                            <span>学習内容</span>
-                            <span>learning</span>
-                        </li>
-                    </a>
-                    <a href="index.html">
-                        <li>
-                            <span>メンバー</span>
-                            <span>member</span>
-                        </li>
-                    </a>
-                    <a href="index.html">
-                        <li>
-                            <span>アクセス</span>
-                            <span>access</span>
-                        </li>
-                    </a>
-                    <a href="index.html">
-                        <li>
-                            <span>お問い合わせ</span>
-                            <span>contact</span>
-                        </li>
-                    </a>
-                    </ul>
-                </nav>
-            </li>
-        </ul>
+        <div class="logo">
+            <a href="index.html"> 
+                <img src="./img/logo.png" alt="ChiePro">
+            </a>
+        </div>
+
+        <!-- global navigation menu -->
+        <div class="nav_menu">
+            <nav>
+                <!-- TODO: グローバルナビゲーションメニューを作る -->
+            </nav>
+        </div>
     </header>
 
-    <!-- image picture -->
-    <div id="image_box" class="bottom_lyaout">
+    <!-- image slider -->
+    <div class="image_slider layout_margin_b">
         <div class="slider">
-            <div><img src="./img/top_main.jpg" alt="image"class="img_size"></div>
-            <div><img src="./img/top_img.jpg" alt="image"class="img_size"></div>
+
+            <section>
+                <div class="image_layout_text">
+                    <h1>ChieProメンバー募集中</h1></br>
+                    <p>初心者の方でも大歓迎！<br>対応言語多数</p> 
+                </div>
+                    <img src="./img/top_main.jpg" alt="image"class="img_size">
+            </section>
+
+            <section>
+                <div class="image_layout_text image_top_text">
+                    <h1>学習言語</h1>
+                </div>
+                <div class="image_layout_text image_icon">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-php"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-java"></i>
+                </div>
+                    <img src="./img/top_img.jpg" alt="image"class="img_size">
+            </section>
+            
             <div><img src="./img/top_img2.jpg" alt="image"class="img_size"></div>
             <div><img src="./img/top_img3.jpg" alt="image"class="img_size"></div>
             <div><img src="./img/top_img4.jpg" alt="image"class="img_size"></div>
@@ -87,19 +77,19 @@
     <div id="site_box">
 
     <!-- container -->
-    <div class="bottom_lyaout">
+    <div class="layout_margin_b">
         <p>container</p>
     </div>
 
     <!--left right frame-->
-    <div id="l_r_container" class="bottom_lyaout">
+    <div class="l_r_container layout_margin_b">
         <!-- left container -->
-        <div id="left_container">
+        <div class="left_container">
             <p>left-container</p>
         </div>
 
         <!-- right container -->
-        <div id="right_container">
+        <div class="right_container">
             <p>tight-centainer</p>
         </div>
     </div>
@@ -121,6 +111,6 @@
           });
         });
     </script>
-    
+
 </body>
 </html>

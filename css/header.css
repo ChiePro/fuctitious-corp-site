@@ -2,49 +2,13 @@
  *  header style
  */
 
-.h_logo{
-    width: auto;
+.logo{
+    width: 20%;
     height: 100%;
-    text-align: left;
- }
-
-
-
-.side_bar{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-nav{
-    width: auto;
-    height: 100%;
-    text-align: left;
-}
-
-.h_box{
-    text-align: left;
-    background: #d4d4d4;
-    width: auto;
-}
-
-.side_bar nav ul li{
-    font-size: 1rem;
-    padding: 1vh 5vw;
     float: left;
-    border-right: 1px solid #383838;
-}
-
-.side_bar span{
-    display: block;
-    margin: 0.8vh 0;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    color: #1a1a1a;
-}
-
-/* transition …… transition効果（時間的変化）をまとめて指定する */
-.side_bar li:hover{
-    color: #383838;
-    background: #c4c4c4;
-    transition: all .8s;
+ }
+ 
+.logo img{
+    height: 100%;
+    width: auto;
 }

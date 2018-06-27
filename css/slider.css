@@ -8,7 +8,7 @@
 }
 
 /* スライドの枠の削除 */
-.bx-wrapper {
+.bx-wrapper{
     margin: 0 !important;
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
@@ -16,3 +16,51 @@
     border: none !important;
     background: none !important;
   }
+ 
+section{
+    position: relative;
+}
+  /* top1_image テキスト */
+.image_layout_text{
+    color: rgb(255, 255, 255);
+    background-color: rgba(94, 94, 94, 0.5);
+    width: 30vw;
+    padding: 3vh;
+    /* imageの端からの幅　*/
+    left: 5vw;
+    bottom: 10vh;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    /* パディングとボーダーを幅と高さを調整 */
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.image_layout_text h1{
+    font-size: 2vw;
+    line-height: 1.231;
+}
+
+.image_layout_text p{
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+/* top2_iamge */
+.image_icon{
+    width: 70vw;
+}
+
+.image_icon i{
+    font-size: 12vw;
+    margin: 0 1vw;
+}
+
+/* top3_imge */
+.image_top_text{
+    bottom: 45vh;
+}
+
+.image_top_text h1{
+    font-size: 4vw;
+}
