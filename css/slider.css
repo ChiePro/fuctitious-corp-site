@@ -21,14 +21,15 @@ img{
     position: relative;
     z-index: -5;
 }
-  /* top1_image テキスト */
+  /* top_image テキストのframe */
 .image_layout_text{
     color: rgb(255, 255, 255);
     background-color: rgba(58, 58, 58, 0.7);
-    padding: 3vh 3vw;
+    padding: 2% 3%;
     text-align: left;
 }
 
+/* top_img1 */
 .image_layout_text h1{
     font-size: 2vw;
     line-height: 1.231;
@@ -39,24 +40,30 @@ img{
     line-height: 1.5;
 }
 
-/* top2_iamge */
+/* top_imag2 */
+
+
+/* top_img3 */
+.image_icon{
+    width: 60vw;
+}
 
 .image_icon i{
-    font-size: 7vw;
-    margin: 0 1vw;
+    font-size: 9vw;
+    padding-left: 3vw;
 }
 
 .image_top_text{
     width: fit-content;
-    margin-bottom: 5vh;
+    margin-bottom: 5%;
 }
 
 .image_top_text h1{
-    font-size: 4vw;
+    font-size: 3vw;
 }
-
+/* img3 */
 .absolute{
     position: absolute;
-    bottom: 5%;
+    bottom: 7%;
     left: 3%;
 }
