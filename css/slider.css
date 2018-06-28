@@ -33,7 +33,6 @@ section{
     -moz-box-sizing: border-box;
     /* パディングとボーダーを幅と高さを調整 */
     box-sizing: border-box;
-    position: absolute;
 }
 
 .image_layout_text h1{
@@ -47,6 +46,14 @@ section{
 }
 
 /* top2_iamge */
+.image_top_text{
+    margin-bottom:  2vh;
+}
+
+.image_top_text h1{
+    font-size: 4vw;
+}
+
 .image_icon{
     width: 70vw;
 }
@@ -56,11 +63,7 @@ section{
     margin: 0 1vw;
 }
 
-/* top3_imge */
-.image_top_text{
-    bottom: 45vh;
-}
-
-.image_top_text h1{
-    font-size: 4vw;
+.absolute{
+    position: absolute;
+    margin: 30vh 0 0 5vw;
 }
