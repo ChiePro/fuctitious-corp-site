@@ -17,22 +17,16 @@
     background: none !important;
   }
  
-section{
+img{
     position: relative;
+    z-index: -5;
 }
   /* top1_image テキスト */
 .image_layout_text{
     color: rgb(255, 255, 255);
     background-color: rgba(58, 58, 58, 0.7);
-    width: 30vw;
-    padding: 3vh;
-    /* imageの端からの幅　*/
-    left: 5vw;
-    bottom: 10vh;
+    padding: 3vh 3vw;
     text-align: left;
-    -moz-box-sizing: border-box;
-    /* パディングとボーダーを幅と高さを調整 */
-    box-sizing: border-box;
 }
 
 .image_layout_text h1{
@@ -46,24 +40,23 @@ section{
 }
 
 /* top2_iamge */
+
+.image_icon i{
+    font-size: 7vw;
+    margin: 0 1vw;
+}
+
 .image_top_text{
-    margin-bottom:  2vh;
+    width: fit-content;
+    margin-bottom: 5vh;
 }
 
 .image_top_text h1{
     font-size: 4vw;
 }
 
-.image_icon{
-    width: 70vw;
-}
-
-.image_icon i{
-    font-size: 12vw;
-    margin: 0 1vw;
-}
-
 .absolute{
     position: absolute;
-    margin: 30vh 0 0 5vw;
+    bottom: 5%;
+    left: 3%;
 }
