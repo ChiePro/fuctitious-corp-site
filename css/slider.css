@@ -63,9 +63,9 @@
 /* 4枚目 */
 .design_table,tr,td{
    border: .2rem rgb(214, 214, 214) solid;;
-   padding: 3% .5%;
+   padding: 2.5% 0;
    font-size: 2.5vw;
-   width: 50vw;
+   width: 60vw;
    text-align: center;
    vertical-align: middle;
 }
@@ -83,6 +83,14 @@
     -moz-border-radius: 15vw;
 }
 
+
+.layout_table{
+    color: rgba(255, 255, 255);
+    background-color: rgba(66, 66, 66, 0.842);
+    padding: 2% 3%;
+    text-align: left;
+    width: 60vw;
+}
 /*****************************************
              bxslider customize style
  *****************************************/
