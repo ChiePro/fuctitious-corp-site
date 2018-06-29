@@ -11,7 +11,7 @@
 
   /* top_image テキストのframe */
 .image_layout_text{
-    color: rgba(255, 255, 255);
+    color: rgba(255, 255, 255 ,1);
     background-color: rgba(66, 66, 66, 0.842);
     padding: 2% 3%;
     text-align: left;
@@ -62,7 +62,7 @@
 
 /* 4枚目 */
 .design_table,tr,td{
-   border: .2rem rgb(214, 214, 214) solid;;
+   border: .2rem rgba(214, 214, 214 ,1) solid;;
    padding: 2.5% 0;
    font-size: 2.5vw;
    width: 60vw;
@@ -73,7 +73,7 @@
 .design_table td a{
     background-color: rgba(94, 245, 114, 0.527);
     padding: 0 20%;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     text-decoration:none;
     /* 角の丸み */
     border-radius: 15vw;
@@ -85,12 +85,13 @@
 
 
 .layout_table{
-    color: rgba(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(66, 66, 66, 0.842);
     padding: 2% 3%;
     text-align: left;
     width: 60vw;
 }
+
 /*****************************************
              bxslider customize style
  *****************************************/

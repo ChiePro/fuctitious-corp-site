@@ -10,7 +10,7 @@ header{
     position: fixed;
     width: 100vw;
     height: 10vh;
-    background-color: rgba(231, 231, 231);
+    background-color: rgba(231, 231, 231 ,1);
 }
 
 .image_slider{
