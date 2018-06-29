@@ -29,7 +29,14 @@ img{
     text-align: left;
 }
 
-/* top_img1 */
+/* ３枚目 */
+.absolute{
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+}
+
+/* １枚目 */
 .image_layout_text h1{
     font-size: 2vw;
     line-height: 1.231;
@@ -40,14 +47,13 @@ img{
     line-height: 1.5;
 }
 
-/* top_imag2 */
-
+/* 2枚目 */
 .top_img2 p{
-    font-size:2.3vw;
-    padding: 3vh;
+    font-size:2.2vw;
+    padding: .8%;
 }
 
-/* top_img3 */
+/* 3枚目 */
 .image_icon{
     width: 60vw;
 }
@@ -62,12 +68,15 @@ img{
     margin-bottom: 5%;
 }
 
-.image_top_text h1{
+.image_top_text p{
     font-size: 3vw;
 }
-/* img3 */
-.absolute{
-    position: absolute;
-    bottom: 7%;
-    left: 3%;
+
+/* 4枚目 */
+table,tr,td{
+   border: .2vw #808080 solid;;
+   padding: 1% .5%;
+   font-size: 2.5vw;
+   width: 50vw;
+   text-align: center;
 }
