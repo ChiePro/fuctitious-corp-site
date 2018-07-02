@@ -2,65 +2,63 @@
  *  image slider style
  */
 
- .layout_img{
+ .slider_content{
     position: relative;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
 }
 
   /* top_image テキストのframe */
-.image_layout_text{
+.tips{
     color: rgba(255, 255, 255 ,1);
-    background-color: rgba(66, 66, 66, 0.842);
+    background-color: rgba(66, 66, 66, .8);
     padding: 2% 3%;
     text-align: left;
+    z-index: 1;
 }
 
 /* absolute top_img1.2.3.4に適応してます*/
-.absolute{
+.slider_tips_absolute{
     position: absolute;
     bottom: 7%;
     left: 3%;
+    z-index: 1;
 }
 
-/* １枚目 */
-.image_layout_text h1{
+/* 1 枚目 */
+.tips h1{
     font-size: 2vw;
     line-height: 1.231;
 }
 
-.image_layout_text p{
+.tips p{
     font-size: 1.5vw;
     line-height: 1.5;
 }
 
-/* 2枚目 */
-.top_img2 p{
+/* 2 枚目 */
+.tips_solicit p{
     font-size:2.2vw;
     padding: .8%;
 }
 
-/* 3枚目 */
+/* 3 枚目 */
 .image_icon{
-    width: 60vw;
 }
 
-.image_icon i{
+.program_lang_icon i{
     font-size: 9vw;
     padding-left: 3vw;
 }
 
-.image_top_text{
+.tips_title{
     width: fit-content;
     margin-bottom: 5%;
 }
 
-.image_top_text p{
+.tips_title p{
     font-size: 3vw;
 }
 
-/* 4枚目 */
+/* 4 枚目 */
 .design_table,tr,td{
    border: .2rem rgba(214, 214, 214 ,1) solid;;
    padding: 2.5% 0;
@@ -71,7 +69,7 @@
 }
 
 .design_table td a{
-    background-color: rgba(94, 245, 114, 0.527);
+    background-color: rgba(94, 245, 114, .5);
     padding: 0 20%;
     color: rgba(255, 255, 255, 1);
     text-decoration:none;
@@ -84,11 +82,11 @@
 }
 
 
-.layout_table{
+.tips_table_wrap{
     color: rgba(255, 255, 255, 1);
-    background-color: rgba(66, 66, 66, 0.842);
+    background-color: rgba(66, 66, 66, .8);
     padding: 2% 3%;
-    text-align: left;
+    text-align: center;
     width: 60vw;
 }
 
