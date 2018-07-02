@@ -41,7 +41,8 @@
 }
 
 /* 3 枚目 */
-.image_icon{
+.program_lang_icon{
+    width: 60vw;
 }
 
 .program_lang_icon i{
@@ -91,7 +92,7 @@
 }
 
 /*****************************************
-             bxslider customize style
+         bxslider customize style
  *****************************************/
 
 /* スライドの枠の削除 */
