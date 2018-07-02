@@ -25,51 +25,18 @@
 <body>
 
     <!-- header -->
-    <header>
-        <div class="logo">
-            <a href="index.html"> 
-                <img src="./img/logo.png" alt="ChiePro">
-            </a>
-        </div>
-
-        <!-- global navigation menu -->
-        <div class="nav_wrap">
-        <div class="nav_menu">
+    <header id="top_head">
+        <div class="inner">
+            <h1 class="logo">Logo</h1>
             <nav>
                 <ul>
-                <a href="index.html">    
-                    <li>
-                        <span>ホーム</span>
-                        <span>home</span>
-                    </li>
-                </a>
-                <a href="index.html">
-                    <li>
-                        <span>学習内容</span>
-                        <span>learning</span>
-                    </li>
-                </a>
-                <a href="index.html">
-                    <li>
-                        <span>メンバー</span>
-                        <span>member</span>
-                    </li>
-                </a>
-                <a href="index.html">
-                    <li>
-                        <span>アクセス</span>
-                        <span>access</span>
-                    </li>
-                </a>
-                <a href="index.html">
-                    <li>
-                        <span>お問い合わせ</span>
-                        <span>contact</span>
-                    </li>
-                </a>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">LEARNING</a></li>
+                    <li><a href="#">MEMBER</a></li>
+                    <li><a href="#">ACCESS</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
-            </nav>     
-        </div>
+            </nav>
         </div>
     </header>
 
@@ -107,15 +74,23 @@
     </footer>
 
     <script>
-        $(function() {
-            $('.nav_wrap').meanmenu({
-                meanMenuClose: "x", // クローズボタン
-                meanMenuCloseSize: "18rem", // クローズボタンのフォントサイズ
-                meanMenuOpen: "<span /><span /><span />", // 通常ボタン
-                meanRevealPosition: "right", // 表示位置
-                meanScreenWidth: "480", // 表示させるウィンドウサイズ(ブレイクポイント)
-            });
+       (function($) {
+    $(function() {
+        var $header = $('#top-head');
+        // Nav Fixed
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 350) {
+                $header.addClass('fixed');
+            } else {
+                $header.removeClass('fixed');
+            }
         });
+        // Nav Toggle Button
+        $('#nav-toggle').click(function(){
+            $header.toggleClass('open');
+        });
+    });
+})(jQuery);
     </script>
 
 </body>

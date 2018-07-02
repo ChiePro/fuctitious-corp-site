@@ -6,13 +6,6 @@
     margin : 2vh 0;
 }
 
-header{
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    background: rgba(230, 230, 230,1);
-}
-
 .image_slider{
     padding-top: 10vh;
     width: 100%;
