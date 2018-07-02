@@ -40,3 +40,10 @@ nav{
     background: #c4c4c4;
     transition: all .8s;
 }
+
+@media screen and (max-width:800px) { 
+    /*　画面サイズが480pxからはここを読み込む　*/
+    .mean-container .mean-bar{
+    padding-top: 10vh;
+}
+}
