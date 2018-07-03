@@ -61,21 +61,17 @@
     font-size: 3vw;
 }
 
-.design_table td a{
+.tips_table td a{
     background-color: rgba(94, 245, 114, .5);
     padding: 0 20%;
     color: rgba(255, 255, 255, 1);
     text-decoration:none;
     /* 角の丸み */
-    border-radius: 15vw;
-    /* Safari,Google Chrome用 */  
+    border-radius: 15vw;  
     -webkit-border-radius: 15vw;      
-    /* Firefox用 */
     -moz-border-radius: 15vw;
-    /* oper用 */
     -o-border-radius: 15vw;
-    /* IE用 */
-    -ms-border-radius: 1em;
+    -ms-border-radius: 15vw;
 }
 
 .tips_table_wrap{
@@ -101,15 +97,3 @@
     border: none !important;
     background: none !important;
   }
-
-
-/*****************************************
-        bender prefix style
-*****************************************/
-
-.fit_content{
-    width: -moz-fit-content !important;
-    width: -webkit-fit-content !important;
-    width: -o-fit-content !important;
-    width: -ms-fit-content !important;
-}
