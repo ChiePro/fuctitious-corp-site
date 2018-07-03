@@ -24,7 +24,7 @@
 <body>
 
     <!-- header -->
-    <header id="top-head">
+    <header>
         <div class="inner">
             <h1 class="logo">Logo</h1>
             <nav>
@@ -75,7 +75,7 @@
     <script>
         (function($) {
             $(function() {
-                var $header = $('#top-head');
+                var $header = $('header');
                 // Nav Fixed
                 $(window).scroll(function() {
                     if ($(window).scrollTop() > 50) {
