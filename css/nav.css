@@ -2,24 +2,24 @@
  * nav css files
  */
 
- .inner{
+.inner{
      width: 100vw;
      margin: 0 auto;
      position: relative;
  }
-
- /*.inner:after{
-     clear:both;
-     display: block
- } */
- 
- /* header */
-header a{
-    color: rgba(104, 0, 0, 0.993);
-    text-decoration: none;
+/* menu bar の　配置　*/
+nav ul{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1vw;
 }
 
-.logo{
+nav ul li {
     float: left;
-    font-size: 2vw;
 }
+
+nav ul li a {
+    padding: 0 2vw;
+}
+

@@ -19,13 +19,12 @@
 
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.meanmenu.min.js"></script>
 </head>
 
 <body>
 
     <!-- header -->
-    <header>
+    <header id="top-head">
         <div class="inner">
             <h1 class="logo">Logo</h1>
             <nav>
@@ -74,24 +73,24 @@
     </footer>
 
     <script>
-       (function($) {
-    $(function() {
-        var $header = $('#top-head');
-        // Nav Fixed
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 350) {
-                $header.addClass('fixed');
-            } else {
-                $header.removeClass('fixed');
-            }
-        });
-        // Nav Toggle Button
-        $('#nav-toggle').click(function(){
-            $header.toggleClass('open');
-        });
-    });
-})(jQuery);
-    </script>
+        (function($) {
+            $(function() {
+                var $header = $('#top-head');
+                // Nav Fixed
+                $(window).scroll(function() {
+                    if ($(window).scrollTop() > 50) {
+                        $header.addClass('fixed');
+                    } else {
+                        $header.removeClass('fixed');
+                    }
+                });
+                // Nav Toggle Button
+                $('#nav-toggle').click(function(){
+                    $header.toggleClass('open');
+                });
+            });
+        })(jQuery);
+        </script>
 
 </body>
 </html>
