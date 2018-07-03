@@ -11,13 +11,9 @@ img{
     height: 100%;
 }
 
-/*****************************************
-        vendor prefix style
-*****************************************/
-
 .fit_width{
-    width: -moz-fit-content !important;
-    width: -webkit-fit-content !important;
-    width: -o-fit-content !important;
-    width: -ms-fit-content !important;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: -o-fit-content;
+    width: -ms-fit-content;
 }

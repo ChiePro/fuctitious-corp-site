@@ -2,18 +2,9 @@
  *  image slider style
  */
 
- .slider_content{
+ .slider_image_content{
     position: relative;
 }
-
-.design_table,tr,td{
-    border: .2rem rgba(214, 214, 214 ,1) solid;;
-    padding: 2.5% 0;
-    font-size: 2.5vw;
-    width: 60vw;
-    text-align: center;
-    vertical-align: middle;
- }
 
   /* top_image テキストのframe */
 .tips{
@@ -61,6 +52,23 @@
     font-size: 3vw;
 }
 
+.tips_table_wrap{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(66, 66, 66, .8);
+    padding: 2% 3%;
+    text-align: center;
+    width: 60vw;
+}
+
+.tips_table,.tips_table tr,.tips_table td{
+    border: .2rem rgba(214, 214, 214 ,1) solid;;
+    padding: 2.5% 0;
+    font-size: 2.5vw;
+    width: 60vw;
+    text-align: center;
+    vertical-align: middle;
+ }
+
 .tips_table td a{
     background-color: rgba(94, 245, 114, .5);
     padding: 0 20%;
@@ -72,14 +80,6 @@
     -moz-border-radius: 15vw;
     -o-border-radius: 15vw;
     -ms-border-radius: 15vw;
-}
-
-.tips_table_wrap{
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(66, 66, 66, .8);
-    padding: 2% 3%;
-    text-align: center;
-    width: 60vw;
 }
 
 /*****************************************
