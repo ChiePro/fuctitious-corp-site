@@ -3,6 +3,7 @@
  */
 .layout_nav{
     width: 80%;
+    height: 100%;
     float: right;
 }
 
@@ -44,6 +45,6 @@
 }
 
 .fixed .global_nav ul li a{
-    padding: 0 2vw;
+    padding: 0 ;
     right: 0;
 }
