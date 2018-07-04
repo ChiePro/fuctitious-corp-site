@@ -2,16 +2,11 @@
 *  logo style
 */
 .logo{
-    position: absolute;
-    left: 10vw;
-    top: 0;
-    height: 100%;
     width: 20%;
-    
+    height: 100%;
+    float:left;
 }
 
 .logo img{
     height: 100%;
-    width: 20vw;
 }
-
