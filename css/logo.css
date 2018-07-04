@@ -6,10 +6,12 @@
     left: 10vw;
     top: 0;
     height: 100%;
-    width: auto;
+    width: 20%;
+    
 }
 
 .logo img{
     height: 100%;
-    width: auto;
+    width: 20vw;
 }
+
