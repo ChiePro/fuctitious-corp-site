@@ -1,9 +1,15 @@
 /**
 *  logo style
 */
-
 .logo{
-    width: 25%;
+    position: absolute;
+    left: 10vw;
+    top: 0;
     height: 100%;
-    float: left;
+    width: auto;
+}
+
+.logo img{
+    height: 100%;
+    width: auto;
 }

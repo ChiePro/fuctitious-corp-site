@@ -6,6 +6,11 @@
     margin: 0 10vw;
 }
 
+header{
+    position:fixed;
+    width: 100%;
+}
+
 .image_slider{
     padding-top: 10vh;
     width: 100%;
