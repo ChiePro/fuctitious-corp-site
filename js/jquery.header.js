@@ -6,15 +6,15 @@
     $(function() {
         const header = $('header');
         const fixedClassName ='fixed';
-        /* スクロール上の上位置を25取得 */
+        /* この値以上スクロールすると header を固定する */
         const fixedBorder = 25;
 
-        /* スクロール上の上位置を25取得するとfixedの処理をする */
+        /* fixedBorder の値以上スクロールしたら */
         $(window).scroll(function() {
             if ($(window).scrollTop() > fixedBorder) {
-                header.addClass(fixedClassName);
+                header.addClass(fixedBorder);
             } else {
-                header.removeClass(fixedClassName);
+                header.removeClass(fixedBorder);
             }
         });
     });
