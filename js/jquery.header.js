@@ -4,8 +4,8 @@
 
 (function($) {
     $(function() {
-        var header = $('header');
-        var fixedClassName ='fixed';
+        const header = $('header');
+        const fixedClassName ='fixed';
         /* スクロール上の上位置を25取得 */
         const fixedBorder = 25;
 
