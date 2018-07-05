@@ -15,7 +15,7 @@
 }
 
 .global_nav ul li{
-    border-left: solid .2rem rgba(123, 238, 148 , 1);
+    border-left: solid .4rem rgba(123, 238, 148 , 1);
     float: left;
     padding: 1vh 0;
     width: 13vw;
@@ -26,6 +26,7 @@
      background-color: rgba(172, 255, 172, 0.7);
      /* オーバレイ　丸み */
      border-radius: 3rem;
+     padding: 0 2vw;
  }
  
 .global_nav ul li a{
