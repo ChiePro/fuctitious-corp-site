@@ -71,7 +71,7 @@
 .tips_table,.tips_table tr,.tips_table td{
     border: .1em rgba(214, 214, 214 ,1) solid;
     font-size: 2vw;
-    padding: 3% 0;
+    padding: 2% 5%;
     text-align: center;
     vertical-align: middle;
  }
@@ -87,6 +87,9 @@
     -moz-border-radius: 15vw;
     -o-border-radius: 15vw;
     -ms-border-radius: 15vw;
+}
+.tips_table_text{
+    width: 30vw;
 }
 
 /*****************************************
