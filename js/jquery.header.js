@@ -5,15 +5,16 @@
 (function($) {
     $(function() {
         var header = $('header');
-        /* 縦のサイズ 25以上なると実行 */
+        var fixedClassName ='fixed';
+        /* スクロール上の上位置を25取得 */
         const fixedBorder = 25;
 
-        /* 縦幅が25以下になったらfixedの処理をする */
+        /* スクロール上の上位置を25取得するとfixedの処理をする */
         $(window).scroll(function() {
             if ($(window).scrollTop() > fixedBorder) {
-                header.addClass('fixed');
+                header.addClass(fixedClassName);
             } else {
-                header.removeClass('fixed');
+                header.removeClass(fixedClassName);
             }
         });
     });

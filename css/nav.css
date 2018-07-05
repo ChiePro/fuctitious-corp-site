@@ -15,10 +15,11 @@
 }
 
 .global_nav ul li{
-    border-left: solid .1rem rgba(123, 238, 148 , 1);
+    border-left: solid .2rem rgba(123, 238, 148 , 1);
     float: left;
     padding: 1vh 0;
-    width: 10vw;
+    width: 13vw;
+    border-radius: 3rem;
  }
 
  .global_nav ul li :hover{
@@ -43,7 +44,6 @@ header,
     -moz-transiton: all .8s ease;
     -o-transiton: all .8s ease;
     -ms-transiton: all .8s ease;
-
 }
 
 /* Fixed Header Style */
@@ -59,9 +59,9 @@ header,
 }
 
 .fixed .global_nav ul li{
-    width: 8.5vw;
+    width: 10vw;
 }
 
 .fixed .global_nav ul li a{
-    padding: .1vh 1vw;
+    padding: .1vh .1vw;
 }
