@@ -32,10 +32,13 @@
     line-height: 1.5;
 }
 
-.tips_solicit p{
-    font-size: 2vw;
+.tips_solicit{
     max-width: 70vw;
     max-height: 30vh;
+}
+
+.tips_solicit p{
+    font-size: 1.5vw;
     padding: .5%;
 }
 
@@ -56,7 +59,7 @@
 .tips_table_wrap{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(66, 66, 66, .8);
-    padding: 2% 3%;
+    padding: 2% 2%;
     text-align: center;
     width: 60vw;
 }
@@ -66,18 +69,18 @@
 }
 
 .tips_table,.tips_table tr,.tips_table td{
-    border: .2rem rgba(214, 214, 214 ,1) solid;
-    padding: 2.5% 0;
+    border: .1em rgba(214, 214, 214 ,1) solid;
     font-size: 2.5vw;
+    padding: 2%;
     text-align: center;
     vertical-align: middle;
  }
 
 .tips_table td a{
     background-color: rgba(94, 245, 114, .5);
-    padding: 0 20%;
     color: rgba(255, 255, 255, 1);
     text-decoration:none;
+    padding: 0 10%;
     /* 角の丸み */
     border-radius: 15vw;  
     -webkit-border-radius: 15vw;      
