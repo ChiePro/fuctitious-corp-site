@@ -9,6 +9,7 @@
 header{
     width: 100vw;
     height: 10vh;
+    position: fixed;
 }
 
 .image_slider{

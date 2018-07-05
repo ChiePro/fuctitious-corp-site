@@ -5,44 +5,64 @@
     width: 80%;
     height: 100%;
     float: right;
+    position: relative;
 }
 
-.global_nav  {
+.global_nav{
     float: right;
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
 }
 
 .global_nav ul li{
-    border-left: solid .1vh rgba(199, 36, 36, 1);
+    border-left: solid .1vh rgb(123, 238, 148);
     float: left;
+    padding: 1vh 0;
  }
 
  .global_nav ul li :hover{
-     background-color: rgba(224, 224, 224, .7);
+     background-color: rgba(172, 255, 172, 0.7);
+     /* オーバレイ　丸み */
+     border-radius: 3vw;
  }
  
 .global_nav ul li a{
     font-size: 1.2vw;
     color: #5e5e5eef;
+    margin: 0 3.3vw;
+    padding: 0 2vw;
     text-decoration: none;
 }
 
 /* transition */
-.inner,
+header,
+.layout_nav,
+.global_nav,
 .logo,
 .global_nav ul li,
 .global_nav ul li a{
     transition: all .8s ease;
+    -webkit-tranistion: all .8s ease;
+    -moz-transiton: all .8s ease;
+    -o-transiton: all .8s ease;
+    -ms-transiton: all .8s ease;
+
 }
 
 /* Fixed */
 
 .fixed{
     width: 100%;
-    padding-top: 5vh;
-    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 2vh;
+    background-color: rgba(197, 197, 197, 0.6);
 }
 
-.fixed .global_nav ul li a{
-    padding: 0 ;
+.fixed .global_nav{
+    bottom: .1;
     right: 0;
+}
+.fixed .global_nav ul li a{
+    padding: 0 1vw;
+    margin: 0 1vw;
 }
