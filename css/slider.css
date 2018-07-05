@@ -6,7 +6,7 @@
     position: relative;
 }
 
-  /* top_image テキストのframe */
+/* 画像スライダー内のテキストフレーム */
 .tips{
     color: rgba(255, 255, 255 ,1);
     background-color: rgba(66, 66, 66, .8);
@@ -15,7 +15,6 @@
     z-index: 1;
 }
 
-/* 1 2 3 4枚目の画像に適応してます*/
 .slider_tips_absolute{
     position: absolute;
     bottom: 7%;
@@ -24,7 +23,7 @@
 }
 
 .tips h1{
-    font-size: 2vw;
+    font-size: 2rem;
     line-height: 1.231;
 }
 
@@ -60,11 +59,14 @@
     width: 60vw;
 }
 
+.tips_table{
+    width: 60vw;
+}
+
 .tips_table,.tips_table tr,.tips_table td{
-    border: .2rem rgba(214, 214, 214 ,1) solid;;
+    border: .2rem rgba(214, 214, 214 ,1) solid;
     padding: 2.5% 0;
     font-size: 2.5vw;
-    width: 60vw;
     text-align: center;
     vertical-align: middle;
  }
