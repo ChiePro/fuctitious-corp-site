@@ -1,7 +1,7 @@
 /**
  *  nav style
  */
-.layout_nav{
+.global_nav_wrap{
     width: 80%;
     height: 100%;
     float: right;
@@ -9,22 +9,22 @@
 }
 
 .global_nav{
-    float: right;
     position: absolute;
     right: 0;
-    bottom: 1rem;
+    bottom: 5%;
 }
 
 .global_nav ul li{
-    border-left: solid .1vh rgb(123, 238, 148);
+    border-left: solid .1rem rgba(123, 238, 148 , 1);
     float: left;
     padding: 1vh 0;
+    width: 10vw;
  }
 
  .global_nav ul li :hover{
      background-color: rgba(172, 255, 172, 0.7);
      /* オーバレイ　丸み */
-     border-radius: 3vw;
+     border-radius: 3rem;
  }
  
 .global_nav ul li a{
@@ -36,9 +36,6 @@
 
 /* transition */
 header,
-.layout_nav,
-.global_nav,
-.logo,
 .global_nav ul li,
 .global_nav ul li a{
     transition: all .8s ease;
@@ -49,8 +46,7 @@ header,
 
 }
 
-/* Fixed */
-
+/* Fixed Header Style */
 .fixed{
     width: 100%;
     padding-top: 2vh;
@@ -58,9 +54,14 @@ header,
 }
 
 .fixed .global_nav{
-    bottom: .1;
+    bottom: .1%;
     right: 0;
 }
+
+.fixed .global_nav ul li{
+    width: 7vw;
+}
+
 .fixed .global_nav ul li a{
     padding: .1vh 1vw;
 }

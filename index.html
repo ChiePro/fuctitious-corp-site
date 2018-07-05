@@ -13,9 +13,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    -->
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    -->
+    
 
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -26,16 +27,16 @@
     <!-- header -->
     <header>
         <div class="logo"><img src="./img/logo.png" alt="ChiePro"></div>
-        <div class="layout_nav">
-        <nav class="global_nav">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PRODUCT</a></li>
-                <li><a href="#">WORKS</a></li>
-                <li><a href="#">COMPANY</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
+        <div class="global_nav_wrap">
+            <nav class="global_nav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">WORKS</a></li>
+                    <li><a href="#">COMPANY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -72,20 +73,7 @@
         <p>footer</p>
     </footer>
 
-    <script>
-        (function($) {
-            $(function() {
-                var $header = $('header');
-                $(window).scroll(function() {
-                    if ($(window).scrollTop() > 50) {
-                        $header.addClass('fixed');
-                    } else {
-                        $header.removeClass('fixed');
-                    }
-                });
-            });
-        })(jQuery);
-    </script>
+    <script type="text/javacsript" src="./js/jquery.globalNav.js"></script>
 
 </body>
 </html>
