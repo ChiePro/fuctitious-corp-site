@@ -12,9 +12,9 @@
         /* fixedBorder の値以上スクロールしたら */
         $(window).scroll(function() {
             if ($(window).scrollTop() > fixedBorder) {
-                header.addClass(fixedBorder);
+                header.addClass(fixedClassName);
             } else {
-                header.removeClass(fixedBorder);
+                header.removeClass(fixedClassName);
             }
         });
     });
