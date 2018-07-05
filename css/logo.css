@@ -1,13 +1,13 @@
 /**
 *  logo style
 */
-.logo{
+.logo_wrap{
     width: 20%;
     height: 100%;
     float: left;
 }
 
-.logo img{
+.logo_wrap img{
     height: 100%;
     width: auto;
 }
