@@ -28,9 +28,8 @@
  }
  
 .global_nav ul li a{
-    font-size: 1.2vw;
+    font-size: 1vw;
     color: #5e5e5eef;
-    margin: 0 3.3vw;
     padding: 0 2vw;
     text-decoration: none;
 }
