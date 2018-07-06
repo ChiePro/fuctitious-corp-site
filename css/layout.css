@@ -7,10 +7,9 @@
 }
 
 header{
-    position: fixed;
     width: 100vw;
     height: 10vh;
-    background-color: rgba(231, 231, 231 ,1);
+    position: fixed;
 }
 
 .image_slider{
