@@ -31,7 +31,7 @@
  
 .global_nav ul li a{
     font-size: 1vw;
-    color: #5e5e5eef;
+    color: #1d1d1def;
     padding: .1vh 2vw;
     text-decoration: none;
 }
@@ -51,7 +51,8 @@ header,
 .fixed{
     width: 100%;
     padding-top: 2vh;
-    background-color: rgba(197, 197, 197, 0.6);
+    background-color: rgba(150, 150, 150, 0.6);
+    z-index: 2;
 }
 
 .fixed .global_nav{
