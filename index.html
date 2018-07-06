@@ -104,26 +104,26 @@
                         <tbody>
                         <tr>
                             <th>チャットツール</th>
-                            <th>
+                            <td>
                                 <a href="https://slack.com/intl/ja-jp" target="_blank">Slack</a>
-                            </th>
+                            </td>
                         </tr>
                         <tr>
                             <th>バージョン管理ツール</th>
-                            <th >
+                            <td>
                                 <a href="https://github.com/" target="_blank">Github</a>
-                            </th>
+                            </td>
                         </tr>
                         <tr>
                             <th rowspan="2">統合開発環境</th>
-                            <th>
+                            <td>
                                 <a href="https://www.eclipse.org/" target="_blank">Eclipse</a>
-                            </th>
+                            </td>
                         </tr>
                         <tr>
-                            <th>
+                            <td>
                                 <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-                            </th>
+                            </td>
                         </tr>
                         </tbody>
                         </table>
@@ -171,8 +171,9 @@
         $(document).ready(function(){
           $('.slider_wrap').bxSlider({
             auto: true,
-            minSlides: 1,
             pager: false, /* スライドバー削除 */
+            startSlide: 0,
+            pause: 6000,
           });
         });
     </script>
