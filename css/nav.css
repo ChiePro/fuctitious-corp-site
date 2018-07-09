@@ -1,0 +1,68 @@
+/**
+ *  nav style
+ */
+.global_nav_wrap{
+    width: 80%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.global_nav{
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+
+.global_nav ul li{
+    border-left: solid .4rem rgba(123, 238, 148 , 1);
+    float: left;
+    padding: 1vh 0;
+    width: 13vw;
+    border-radius: 3rem;
+ }
+
+ .global_nav ul li :hover{
+     background-color: rgba(172, 255, 172, 0.7);
+     /* オーバレイ　丸み */
+     border-radius: 3rem;
+     padding: 0 2vw;
+ }
+ 
+.global_nav ul li a{
+    font-size: 1vw;
+    color: #5e5e5eef;
+    padding: .1vh 2vw;
+    text-decoration: none;
+}
+
+/* transition */
+header,
+.global_nav ul li,
+.global_nav ul li a{
+    transition: all .8s ease;
+    -webkit-tranistion: all .8s ease;
+    -moz-transiton: all .8s ease;
+    -o-transiton: all .8s ease;
+    -ms-transiton: all .8s ease;
+}
+
+/* Fixed Header Style */
+.fixed{
+    width: 100%;
+    padding-top: 2vh;
+    background-color: rgba(197, 197, 197, 0.6);
+}
+
+.fixed .global_nav{
+    bottom: .1%;
+    right: 0;
+}
+
+.fixed .global_nav ul li{
+    width: 10vw;
+}
+
+.fixed .global_nav ul li a{
+    padding: .1vh .1vw;
+}
