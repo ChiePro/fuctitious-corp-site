@@ -62,8 +62,9 @@
     padding: 2% 2%;
     width: 100%;
 }
+
 .tips_table{
-    vertical-align: middle;
+        width: 100%;
 }
 
 .tips_table,.tips_table tr,.tips_table th, .tips_table td{
@@ -72,7 +73,7 @@
  }
 
 .tips_table th, .tips_table td{
-    padding: 3% 6%;
+    padding: 2% 3%;
     vertical-align: middle;
 }
 
