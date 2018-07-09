@@ -26,9 +26,12 @@
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="./js/fakeLoader.min.js"></script>
 </head>
 
 <body>
+    <!-- loading -->
+    <div id="page_loader"></div>
 
     <!-- header -->
     <header>
@@ -167,14 +170,21 @@
     
     <script type="text/javascript" src="./js/jquery.header.js"></script>
 
-    <script>
+    <script type="text/javascript">
         $(document).ready(function(){
-          $('.slider_wrap').bxSlider({
-            auto: true,
-            pager: false, /* スライドバー削除 */
-            startSlide: 0,
-            pause: 6000,
-          });
+            $("#page_loader").fakeLoader({
+                timeToHide: 1900, // ローディング時間(ms)
+                zIndex: 99999, // zIndex
+                spinner: "spinner7",
+                bgColor: "rgba(255, 255, 255, 1)" // 背景の色
+            })
+
+            $('.slider_wrap').bxSlider({
+                auto: true,
+                pager: false, // スライドバー削除
+                startSlide: 0,  // 一番初めの画像からスライドをスタート
+                pause: 6000 // ページの滞在時間(ms)
+            });
         });
     </script>
 
