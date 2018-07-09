@@ -5,3 +5,15 @@
 body{
     text-align: center;
  }
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.fit_width{
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: -o-fit-content;
+    width: -ms-fit-content;
+}

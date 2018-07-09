@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
 
+    <!-- bxslider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    
     <!-- favicon -->
     <link rel="shortcut icon" href="./img/favicon.ico">
     <!-- FIXME:適応する画像がありません。画像の追加待ち
@@ -19,6 +25,7 @@
 
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 
 <body>
@@ -42,8 +49,93 @@
 
     <!-- image slider -->
     <div class="image_slider layout_margin_b">
-        <img src="#" alt="画像">
-        <p>画像</p>
+        <div class="slider_wrap">
+
+            <!-- 1 枚目 -->
+            <section>
+                <div class="tips slider_tips_absolute fit_width">
+                    <h1>ChiePro メンバー募集中</h1>
+                    <p>初心者の方でも大歓迎！</p>
+                    <p>対応言語多数</p> 
+                </div>
+
+                <img src="./img/top_img1.jpg" alt="ChiePro メンバー募集中" class="slider_content">
+            </section>
+
+            <!-- 2 枚目 -->
+            <section>
+                <div class="tips_solicit">
+                    <div class="tips slider_tips_absolute fit_width">
+                        <p>あなたの小さなアイデアで世界は変わる。</p>
+                        <p>「あったらいいな」、「こんなの作りたい」を自分の手で作ってみよう。</p>
+                        <p>大きな一歩を踏み出し、私たちと共にプログラマーの道を歩みませんか？</p>
+                    </div>
+                 </div>
+
+                <img src="./img/top_img2.jpg" alt="あなたの小さなアイデアで世界は変わる。" class="slider_content">
+            </section>
+
+            <!-- 3 枚目 -->
+            <section>
+                <div class="slider_tips_absolute">
+                    <div class="tips tips_title fit_width"><p>学習プログラミング言語</p></div>
+
+                    <div class="tips program_lang_icon fit_width">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-php"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-java"></i>
+                    </div>
+                </div>
+
+                <a href="#">
+                    <img src="./img/top_img3.jpg" alt="学習プログラミング言語" class="slider_content">
+                </a>
+            </section>
+
+            <!-- 4 枚目 -->
+            <section>
+                <div class="slider_tips_absolute">
+                    <div class="tips tips_title fit_width"><p>ChiePro 標準ツール</p></div>
+
+                    <div class="tips_table_wrap">
+                        <table class="tips_table">
+                        <tbody>
+                        <tr>
+                            <th>チャットツール</th>
+                            <th>
+                                <a href="https://slack.com/intl/ja-jp" target="_blank">Slack</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>バージョン管理ツール</th>
+                            <th >
+                                <a href="https://github.com/" target="_blank">Github</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">統合開発環境</th>
+                            <th>
+                                <a href="https://www.eclipse.org/" target="_blank">Eclipse</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
+                            </th>
+                        </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <a href="#">
+                    <img src="./img/top_img4.jpg" alt="ChiePro 標準ツール" class="slider_content">
+                </a>
+            </section>
+
+        </div>
     </div>
 
     <div id="site_box">
@@ -74,6 +166,16 @@
     </footer>
     
     <script type="text/javascript" src="./js/jquery.header.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $('.slider_wrap').bxSlider({
+            auto: true,
+            minSlides: 1,
+            pager: false, /* スライドバー削除 */
+          });
+        });
+    </script>
 
 </body>
 </html>

@@ -7,7 +7,7 @@
         const header = $('header');
         const fixedClassName ='fixed';
         /* この値以上スクロールすると header を固定する */
-        const fixedBorder = 25;
+        const fixedBorder = 300;
 
         /* fixedBorder の値以上スクロールしたら */
         $(window).scroll(function() {
