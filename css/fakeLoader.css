@@ -3,8 +3,8 @@
  *http://codepen.io/vivinantony
 ***********************/
 .spinner1 {
-  width: 30vw;
-  height: 30vh;
+  width: 40px;
+  height: 40px;
   position: relative;
 }
 
@@ -12,13 +12,15 @@
 .double-bounce1, .double-bounce2 {
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 20, 20, 0);
+  border-radius: 50%;
+  background-color: rgb(59, 231, 36);
   opacity: 0.6;
   position: absolute;
-  top: 45%;
-  left: 40%;
-  background-image: url('../img/tenor.gif');
-  background-repeat:no-repeat;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
 }
 
 .double-bounce2 {
@@ -51,7 +53,7 @@
 .container1 > div, .container2 > div, .container3 > div {
   width: 6px;
   height: 6px;
-  background-color: #fff;
+  background-color: rgb(59, 231, 36);
 
   border-radius: 100%;
   position: absolute;
@@ -167,7 +169,7 @@
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #fff;
+  background-color: rgb(59, 231, 36);
   border-radius: 100%;
   
   -webkit-animation: bounce 2.0s infinite ease-in-out;
@@ -202,7 +204,7 @@
 .spinner4 {
   width: 30px;
   height: 30px;
-  background-color: #fff;
+  background-color: rgb(59, 231, 36);
   -webkit-animation: rotateplane 1.2s infinite ease-in-out;
   animation: rotateplane 1.2s infinite ease-in-out;
 }
@@ -233,7 +235,7 @@
 }
 
 .cube1, .cube2 {
-  background-color: #fff;
+  background-color: rgb(59, 231, 36);
   width: 10px;
   height: 10px;
   position: absolute;
@@ -276,13 +278,13 @@
 }
 
 .spinner6 {
-  width: 50px;
-  height: 30px;
+  width: 5vw;
+  height: 3vh;
   text-align: center;
 }
 
 .spinner6 > div {
-  background-color: #fff;
+  background-color: rgb(59, 231, 36);
   height: 100%;
   width: 6px;
   margin-left:2px;
@@ -327,17 +329,17 @@
   }
 }
   .spinner7 {
-      width: 90px;
-      height: 30px;
+      width: 30vw;
+      height: 7vh;
       text-align: center;
     }
 
     .spinner7 > div {
-      background-color: #fff;
-      height: 15px;
-      width: 15px;
-      margin-left:3px;
-      border-radius: 50%;
+      background-color: rgb(67, 238, 44);
+      height: 6vh;
+      width: 2.5vw;
+      margin-left:2vw;
+      border-radius: 25%;
       display: inline-block;
       
       -webkit-animation: stretchdelay 0.7s infinite ease-in-out;
