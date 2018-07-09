@@ -34,7 +34,7 @@
 
 .tips_solicit .tips{
     max-width: 70%;
-    max-height: 50%;
+    max-height: 60%;
 }
 
 .tips_solicit p{
@@ -42,8 +42,12 @@
     padding: .5%;
 }
 
+.program_lang_icon{
+    width: 100%;
+}
+
 .program_lang_icon i{
-    font-size: 10vw;
+    font-size: 11vw;
     padding: 0 1%;
 }
 
@@ -63,15 +67,21 @@
     width: 100%;
 }
 
-.tips_table,.tips_table tr,.tips_table th{
+.tips_table{
+    width: 100%;
+}
+
+.tips_table,.tips_table tr,.tips_table th, .tips_table td{
     border: .1rem rgba(214, 214, 214 ,1) solid;
     font-size: 2vw;
-    padding: 2% 0;
-    width: 55vw;
-    vertical-align: middle;
  }
 
-.tips_table th a{
+.tips_table th, .tips_table td{
+    padding: 2% 3%;
+    vertical-align: middle;
+}
+
+.tips_table td a{
     background-color: rgba(94, 245, 114, .5);
     color: rgba(255, 255, 255, 1);
     text-decoration:none;
