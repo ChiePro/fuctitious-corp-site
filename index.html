@@ -24,7 +24,7 @@
 
 <body>
     <!-- loading -->
-    <div id="fakeloader"></div>
+    <div id="page_loader"></div>
 
     <!-- header -->
     <header>
@@ -76,11 +76,11 @@
     </footer>
 
     <script type="text/javascript">
-        $("#fakeloader").fakeLoader({
+        $("#page_loader").fakeLoader({
         timeToHide:1900, //Time in milliseconds for fakeLoader disappear
         zIndex:999, // Default zIndex
         spinner:"spinner7",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-        bgColor:"#fff", //Hex, RGB or RGBA colors
+        bgColor:"rgba(255, 255, 255, 1)", //Hex, RGB or RGBA colors
         });
         </script>
 
