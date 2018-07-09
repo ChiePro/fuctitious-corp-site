@@ -178,11 +178,12 @@
                 spinner: "spinner7",
                 bgColor: "rgba(255, 255, 255, 1)" // 背景の色
             })
+
             $('.slider_wrap').bxSlider({
                 auto: true,
                 pager: false, // スライドバー削除
-                startSlide: 0,
-                pause: 6000
+                startSlide: 0,  // 一番初めの画像からスライドをスタート
+                pause: 6000 // ページの滞在時間(ms)
             });
         });
     </script>
