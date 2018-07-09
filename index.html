@@ -103,26 +103,26 @@
                         <table class="tips_table">
                         <tbody>
                         <tr>
-                            <td>チャットツール</td>
-                            <td class="tips_table_text">
-                                <a href="https://slack.com/intl/ja-jp">Slack</a>
+                            <th>チャットツール</th>
+                            <td>
+                                <a href="https://slack.com/intl/ja-jp" target="_blank">Slack</a>
                             </td>
                         </tr>
                         <tr>
-                            <td>バージョン管理ツール</td>
-                            <td class="tips_table_text">
-                                <a href="https://github.com/">Github</a>
+                            <th>バージョン管理ツール</th>
+                            <td>
+                                <a href="https://github.com/" target="_blank">Github</a>
                             </td>
                         </tr>
                         <tr>
-                            <td rowspan="2">統合開発環境</td>
-                            <td class="tips_table_text">
-                                <a href="https://www.eclipse.org/">Eclipse</a>
+                            <th rowspan="2">統合開発環境</th>
+                            <td>
+                                <a href="https://www.eclipse.org/" target="_blank">Eclipse</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="tips_table_text">
-                                <a href="https://code.visualstudio.com/">VSCode</a>
+                            <td>
+                                <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
                             </td>
                         </tr>
                         </tbody>
@@ -171,8 +171,9 @@
         $(document).ready(function(){
           $('.slider_wrap').bxSlider({
             auto: true,
-            minSlides: 1,
             pager: false, /* スライドバー削除 */
+            startSlide: 0,
+            pause: 6000,
           });
         });
     </script>
