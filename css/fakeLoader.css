@@ -11,7 +11,7 @@
 
 .spinner7>div {
   margin-left: 1vw;
-  border-radius: 10%;
+  border-radius: 5%;
   display: inline-block;
   -webkit-animation: stretchdelay 0.7s infinite ease-in-out;
   animation: stretchdelay 0.7s infinite ease-in-out;
