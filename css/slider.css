@@ -50,6 +50,7 @@
 .tips_title{
     width: fit-content;
     margin-bottom: 5%;
+    vertical-align: middle;
 }
 
 .tips_title p{
@@ -66,10 +67,11 @@
 .tips_table,.tips_table tr,.tips_table th, .tips_table td{
     border: .1rem rgba(214, 214, 214 ,1) solid;
     font-size: 2vw;
-    padding: 2% 0;
-    width: 55vw;
-    vertical-align: middle;
  }
+
+.tips_table th, .tips_table td{
+    padding: 3% 6%;
+}
 
 .tips_table td a{
     background-color: rgba(94, 245, 114, .5);
