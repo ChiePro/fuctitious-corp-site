@@ -3,8 +3,9 @@
  */
 .global_nav_wrap{
     width: 80%;
-    height: 10%;
+    height: 100%;
     float: right;
+    position: relative;
 }
 
 .global_nav{
@@ -30,7 +31,7 @@
  
 .global_nav ul li a{
     font-size: 1.2vw;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 1);
     padding: .1vh 2vw;
     text-decoration: none;
 }
@@ -50,7 +51,7 @@ header,
 .fixed{
     width: 100%;
     padding-top: 2vh;
-    background-color: rgba(197, 197, 197, 0.5);
+    background-color: rgba(197, 197, 197, 0.8);
 }
 
 .fixed .global_nav{
@@ -64,5 +65,5 @@ header,
 
 .fixed .global_nav ul li a{
     padding: .1vh .1vw;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0 ,1);
 }
