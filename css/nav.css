@@ -51,7 +51,7 @@ header,
 .fixed{
     width: 100%;
     padding-top: 2vh;
-    background-color: rgba(197, 197, 197, 0.8);
+    background-color: rgba(191, 226, 222, 0.8);
 }
 
 .fixed .global_nav{
