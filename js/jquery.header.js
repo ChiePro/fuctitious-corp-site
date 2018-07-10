@@ -12,8 +12,8 @@
         /* この値以上スクロールすると header を固定する */
         const fixedBorder = $('#top_image_slider').outerHeight(true);
 
-        /* fixedBorder の値以上スクロールしたら */
         $(window).scroll(function() {
+            /* fixedBorder の値以上スクロールしたら */
             if ($(window).scrollTop() > fixedBorder - fixedTweak){
                 header.addClass(fixedClassName);
             } else {
