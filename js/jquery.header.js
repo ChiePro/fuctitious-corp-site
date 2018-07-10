@@ -6,10 +6,11 @@
     $(function() {
         const header = $('header');
         const fixedClassName ='fixed';
-        /* メニューバー の表示微調整 */
-        const fixed_minor_adjustment = 20 ;
+        // MEMO: 画像スライダーと少し被るくらいで表示
+        /* fixedBorder 微調整用 */
+        const fixedTweak = 20 ;
         /* この値以上スクロールすると header を固定する */
-        const fixedBorder = $('#top_image_slider').outerHeight(true) - fixed_minor_adjustment;
+        const fixedBorder = $('#top_image_slider').outerHeight(true) - fixedTweak;
 
         /* fixedBorder の値以上スクロールしたら */
         $(window).scroll(function() {
