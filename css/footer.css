@@ -1,0 +1,17 @@
+/**
+ *  footer style
+ */
+
+footer{
+    position: relative;
+    background-image: url("./img/footer_img.jpg");
+}
+
+
+.footer_logo{
+    position: absolute;
+    width: 10%;
+    height: 50%;
+    bottom: 6vh;
+    left: 15vw;
+}
