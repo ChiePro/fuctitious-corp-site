@@ -12,10 +12,10 @@ footer{
 
 .footer_wrap{
     position: absolute;
-    background-color: rgba(121, 121, 121 ,0.8);
+    background-color: rgba(133, 133, 133, 0.8);
     height: 80%;
     right: 10%;
-    bottom: 5%;
+    bottom: 10%;
 }
 
 .footer_wrap h2{
@@ -37,3 +37,15 @@ footer{
     text-decoration: none;
 }
 
+.footer_copyright{
+    background-color: rgba(20, 20, 20, 1);
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_copyright p{
+    color: rgba(206, 206, 206 ,1);
+    font-size: .7vw;
+}
