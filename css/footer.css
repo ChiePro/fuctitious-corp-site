@@ -10,7 +10,7 @@ footer{
     position: relative;
 }
 
-.footer_layout{
+.footer_wrap{
     position: absolute;
     background-color: rgba(121, 121, 121 ,0.8);
     height: 80%;
@@ -18,20 +18,20 @@ footer{
     bottom: 5%;
 }
 
-.footer_layout h2{
+.footer_wrap h2{
     margin-bottom: 5%;
     font-size: 1vw;
     color: rgba(255, 255, 255, 1);
 }
 
-.footer_layout ul li{
+.footer_wrap ul li{
     float: left;
     list-style: none;
     padding: 3% 0;
     width: 15vw;
  }
 
-.footer_layout ul li a{
+.footer_wrap ul li a{
     font-size: 1rem;
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
