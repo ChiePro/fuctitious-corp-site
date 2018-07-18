@@ -3,7 +3,7 @@
  */
 
 #site_box{
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
 
@@ -18,20 +18,11 @@ header{
     width: 100%;
 }
 
-.l_r_container{
-    height: 30vh;
-}
-
-.left_container{
-    float: left;
-}
-
-.right_container{
-    float: right;
+.about_container{
+    height: 50vh;
 }
 
 .layout_margin_b{
-    margin-bottom: 20vh;
     height: 15%;
 }
 

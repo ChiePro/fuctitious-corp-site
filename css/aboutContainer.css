@@ -1,0 +1,79 @@
+/**
+ *  aboutContainer style
+ */
+
+ .back_img{
+    background-image: url(../img/layout_backimg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: 12vh;
+ }
+
+ .about_container{
+    position: relative;
+ }
+
+.about_container h1{
+    color: rgba(68, 68, 68, 1);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 2.5vw;
+}
+
+.about_container img{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: auto;
+    height: auto;
+}
+
+.about_table{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 80%;
+    color: rgba(68, 68, 68, 1);
+    text-align: left;
+}
+
+.about_table th,td{
+    font-size: 1.1vw;
+    padding: 1% .1%;
+}
+
+/**
+ *  モバイル用のレイアウト
+ */
+
+@media only screen and (max-width: 600px) {
+    .about_container img {
+        display: none;
+     }
+
+     .about_container h1{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        font-size: 6vw;
+     }
+
+     .about_table{
+        position: absolute;
+        text-align: left;
+        left: 10%;
+        top: 20%;
+        color: rgba(68, 68, 68, 1);
+    }
+
+    .about_table th,td{
+        font-size: 2.7vw;
+        padding: 5% 0;
+    }
+
+    .about_table th{
+        width: 20%;
+    }
+}
