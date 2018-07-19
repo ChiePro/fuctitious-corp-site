@@ -33,3 +33,7 @@ header{
 .size_container{
     width: 100%;
 }
+
+.back_img{
+    background-image: url(../img/back_img.jpg);
+}

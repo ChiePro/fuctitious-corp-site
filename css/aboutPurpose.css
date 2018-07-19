@@ -9,30 +9,25 @@
     background-color: rgba(130, 255, 224, 0.466);
 }
 
-.back_size{
-    width: 100%;
-    height: 100%;
-}
-
 .about_purpose h1{
     color: rgba(68, 68, 68, 1);
-    position: absolute;
-    top: 10%;
-    left: 35%;
     text-align: center;
     width: 30vw;
+    margin-bottom: 5vh;
     font-size: 2.5vw;
 }
 
 .purpose_text{
     width: 60vw;
+    height: 100%;
     position: absolute;
-    top: 40%;
-    right: 5%;
+    top: 20%;
+    right: -5%;
 }
 
 .purpose_text p{
-    font-size: 1.5vw;
+    text-align: left;
+    font-size: 1.1vw;
     padding: 2vh 0;
 }
 
@@ -42,4 +37,31 @@
     left: 8%;
     width: auto;
     height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .about_purpose img {
+        display: none;
+     }
+
+    .about_purpose{
+        height: 30vh;
+    }
+
+    .purpose_text h1{
+        font-size: 6vw;
+    }
+
+    .purpose_text{
+        position: absolute;
+        left: 20%;
+        top: 0%;
+    }
+
+    .purpose_text p{
+        font-size: 2vw;
+        padding: 0vh 0;
+    }
+
 }
