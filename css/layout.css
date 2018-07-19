@@ -2,11 +2,6 @@
  *  layout style
  */
 
-#site_box{
-    height: auto;
-    width: 100vw;
-}
-
 header{
     width: 100vw;
     height: 10vh;
@@ -18,22 +13,10 @@ header{
     width: 100%;
 }
 
-.about_container{
-    height: 50vh;
-}
-
-.about_purpose{
-    height: 50vh;
-}
-
 .layout_margin_b{
     height: 15%;
 }
 
 .size_container{
     width: 100%;
-}
-
-.back_img{
-    background-image: url(../img/back_img.jpg);
 }
