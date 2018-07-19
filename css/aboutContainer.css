@@ -2,24 +2,32 @@
  *  aboutContainer style
  */
 
-.about_container h1{
-    margin-top: 15vh;
+.about_title h1{
+    margin-top: 5vh;
     color: rgba(68, 68, 68, 1);
     font-size: 2.5vw;
+}
+
+.about_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.about_container p{
+    justify-content: center;
+    align-self: center;
 }
 
 .about_container img{
     width: auto;
     height: auto;
-    float: right;
-    margin: 5% 15% 0 0;
 }
 
 .about_table{
-    width: 55%;
+    width: 60%;
     color: rgba(68, 68, 68, 1);
     text-align: left;
-    margin-left: 10%;
 }
 
 .about_table th,td{

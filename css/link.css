@@ -1,8 +1,0 @@
-/**
- *  link style
- */
- /* リンク先に飛んだ時に少しメニューバーが重なってしまうために調整　*/
-.link{
-    margin-top: -12vh;
-    padding-top: -12vh;
-}
