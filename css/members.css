@@ -44,6 +44,7 @@
 .members_content p img{
     width: auto;
     height: auto;
+    border-radius: 30vh;
 }
 
 /**
@@ -51,8 +52,18 @@
  */
 
 @media only screen and (max-width: 900px) {
-    .members_content img {
-        display: none;
+
+    .members_content{
+        position: relative;
+    }
+
+    .members_content  p img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 5vh;
+        z-index: -1;
+        opacity: .15;
      }
 
      .members_content h1{
@@ -65,12 +76,14 @@
     }
 
     .members_table th,td{
-        font-size: 2.5vw;
-        line-height: 2.5vh;
+        font-size: 3vw;
+        line-height: 2vh;
+        color: rgba(0, 0, 0, 1);
     }
 
     .members_table th{
-        width: 60%;
+        width: 30vw;
     }
+
 }
 
