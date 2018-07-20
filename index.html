@@ -27,6 +27,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="./js/fakeLoader.min.js"></script>
+    <script type="text/javascript" src="./js/iziModal.min.js"></script>
 </head>
 
 <body>
@@ -351,6 +352,62 @@
         </div>
     </div>
 
+    <!-- ACTIVITY -->
+    <!-- Development -->
+    <div class="development">
+        <div class="about_title">
+            <h1>開発実績</h1>
+        </div>
+        <div class="developmnt_content">
+            <button class="open-options button">
+                <div>
+                    <img src="./img/100.png">
+                    <p>反射神経ゲーム</p>
+                    <p>(C# WindowsForm)</p>
+                </div>
+            </button>
+            <div id="modal-options" data-izimodal-group="groupname" data-izimodal-loop="" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/regupon_icon.png" width="100" height="100">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+            <button class="open-options button">
+                <div>
+                    <img src="./img/about_purpose.jpg">
+                    <p>反射神経ゲーム</p>
+                    <p>(C# WindowsForm)</p>
+                </div>
+            </button>
+            <div id="modal-options" data-izimodal-group="groupname" data-izimodal-loop="" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/diggy.icon.png" width="100" height="100">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+        </div>
+        <div class="developmnt_content">
+                <div>
+                    <img src="./img/100.png">
+                    <p>BMI計算機</p>
+                    <p>(C# WindowsForm)</p>
+                    <p>ここに概要を記載.....
+                            ......................................
+                            ......................................</p>
+                </div>
+                <div >
+                    <img src="./img/100.png">
+                    <p>総当たり解読アプリ</p>
+                    <p>(C# WindowsForm)</p>
+                    <p>ここに概要を記載.....
+                            ......................................
+                            ......................................</p>
+                </div>
+            </div>
+    </div>
+
     <!-- footer -->
     <footer>
         <div class="footer_wrap">
@@ -399,6 +456,18 @@
                 startSlide: 0,  // 一番初めの画像からスライドをスタート
                 pause: 6000 // ページの滞在時間(ms)
             });
+        });
+        $(document).on('click', '.open-options', function(event) {
+            event.preventDefault();
+        $('#modal-options').iziModal('open');
+            });
+        $('#modal-options').iziModal({
+            headerColor: '#8fbc8f', //ヘッダー部分の色
+            width: 600, //横幅
+            overlayColor: 'rgba(0, 0, 0, 0.2)', //モーダルの背景色
+            fullscreen: true, //全画面表示
+            transitionIn: 'fadeInUp', //表示される時のアニメーション
+            transitionOut: 'fadeOutDown' //非表示になる時のアニメーション
         });
     </script>
 

@@ -1,0 +1,20 @@
+/**
+ *  development style
+ */
+
+.developmnt_content div img{
+    width: auto;
+    height: auto;
+}
+
+.developmnt_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.developmnt_content p {
+    width: 15vw;
+    line-height: 3vh;
+    margin-bottom: 2vh;
+}
+
