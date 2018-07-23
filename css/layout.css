@@ -20,3 +20,35 @@ header{
 .size_container{
     width: 100%;
 }
+
+.circle_layout_content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 3vh;
+}
+
+.circle_layout_content p img{
+    width: 100%;
+    height: auto;
+}
+
+.circle_layout_content p {
+    width: 30vh;
+}
+
+/**
+ *  モバイル用のレイアウト
+ */
+
+ @media only screen and (max-width: 900px) {
+
+    .circle_layout p{
+        width: 30%;
+    }
+
+    .size_icon p{
+        font-size: 10vw;
+        width: 50%;
+    }
+}
