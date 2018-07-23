@@ -37,7 +37,7 @@ footer{
     text-decoration: none;
 }
 
-.footer_copyright{
+.copyright{
     background-color: rgba(20, 20, 20, 1);
     width: 100%;
     height: 5%;
@@ -45,7 +45,7 @@ footer{
     bottom: 0;
 }
 
-.footer_copyright p{
+.copyright p{
     color: rgba(206, 206, 206 ,1);
     font-size: .7vw;
 }
