@@ -18,6 +18,10 @@
     height: auto;
 }
 
+/**
+ *  モバイル用のレイアウト
+ */
+
 @media only screen and (max-width: 1200px) {
 
     .about_purpose img {
