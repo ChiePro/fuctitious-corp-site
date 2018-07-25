@@ -3,7 +3,7 @@
  */
 
 .about_title h1{
-    margin: 7% 0;
+    margin: 5% 0;
     color: rgba(68, 68, 68, 1);
     font-size: 2.5vw;
 }
@@ -45,7 +45,7 @@
      }
 
      .about_container h1{
-        font-size: 6vw;
+        font-size: 4vw;
         margin-bottom: 1vh;
      }
 
