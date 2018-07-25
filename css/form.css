@@ -1,11 +1,13 @@
 /**
  *  form style
  */
- .content_form{
+
+.content_form{
     margin: 0 auto;
+    width: 80vw;
  }
 
- .form_table tr{
+.form_table tr{
     border: solid #9e9e9e;
     border-width:0 0 .1rem 0;
 }
@@ -36,6 +38,21 @@
    margin: 0 10vw;
 }
 
+.aho{
+}
+
 /**
  *  モバイル用のレイアウト
  */
+
+ @media only screen and (max-width: 900px) {
+    table {
+        border-collapse: collapse;
+      }
+      table td, table th {
+        padding: 10px;
+      }
+      table th {
+        background-color: #eee;
+      }
+}
