@@ -29,9 +29,9 @@
     text-align: left;
 }
 
-.about_table th,td{
-    font-size: 1.2vw;
-    padding: 3% 2%;
+.about_table th,.about_table td{
+    font-size: 1.5vw;
+    padding: 2vh 0;
 }
 
 /**
