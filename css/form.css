@@ -1,0 +1,116 @@
+/**
+ *  form style
+ */
+.content_table{
+    width: 100%;
+}
+
+.content_table table{
+    margin: 0 auto;
+}
+
+.form_table p{
+    font-size: 1.1vw;
+    margin: 2% auto;
+}
+
+.form_table{
+    border: .1rem solid #9e9e9e;
+}
+
+.form_botton_line{
+    border-bottom: .1rem solid #9e9e9e;
+}
+
+.form_top_line{
+    border-top: .1rem solid #9e9e9e;
+}
+
+.form_table th{
+    vertical-align: middle;
+}
+
+.form_table th p{
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.lable_design label p{
+    border: .05rem solid #999;
+    border-radius: 5rem;
+    padding: 1vh 0;
+    /* 上に載せたときのマウスのデザイン */
+    cursor: pointer;
+    text-align: center;
+    width: 10vw;
+}
+
+.lable_design_size label p{
+    width: 50vw;
+}
+
+.lable_design_top p{
+    padding: 1vh 0;
+    /* 上に載せたときのマウスのデザイン */
+    cursor: pointer;
+    text-align: center;
+}
+
+.lable_design label p:hover {
+    background: rgba(209, 209, 209, 1);
+}
+
+.lable_design_top label p:hover {
+    background: rgba(209, 209, 209, 1);
+}
+
+.table_line{
+    border: solid #9e9e9e;
+    border-width:0 0 0 .1rem;
+}
+
+.require{
+    color: rgba(255, 0, 0 ,1);
+}
+
+textarea{
+    resize: vertical;
+}
+
+.table_center p {
+    text-align: center;
+}
+
+.table_left p{
+    text-align: left;
+}
+
+/* チェックボタンを非表示にする */
+.checkbox input[type=checkbox] {
+	display: none;
+}
+
+/* ラジオボタンを非表示にする */
+input[type=radio] {
+	display: none;
+}
+
+input[type=text]{
+    width:30vw;
+    height:4vh;
+    font-size:1em;
+    border-radius: .5rem;
+}
+
+input[type=email]{
+    width:30vw;
+    height:4vh;
+    font-size:1em;
+    border-radius: .5rem;
+}
+
+
+/**
+ *  モバイル用のレイアウト
+ */
+
