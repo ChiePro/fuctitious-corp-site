@@ -1,10 +1,19 @@
 /**
  *  common style
  */
+ @font-face {
+    font-family: "MyFont";
+    src: url('../media/fonts/komorebi-gothic.ttf');
+  }
 
 body{
     text-align: center;
- }
+    font-family: "MyFont", Meiryo, sans-serif;
+}
+
+p,tr,th,td{
+    font-family: 'MyFont', Meiryo, sans-serif;
+}
 
 img{
     width: 100%;
