@@ -34,7 +34,6 @@ send_btn.addEventListener('click', event => {
         }
     }catch{
     }
-    
 });
 
 /**
@@ -88,7 +87,7 @@ function createPayload(){
         attachments = [
             {
                 color: '#89CEEB', //インデント線の色
-                title: '以下の内容で新規の ' + type + ' がありました(今はテストだからね)',//インデント内に表示されるタイトル
+                title: '以下の内容で新規の ' + type + ' がありました',//インデント内に表示されるタイトル
                 text: 
 `*ニックネーム* : ${nickname.value}
 *e-mail* : ${email.value}
@@ -99,7 +98,7 @@ function createPayload(){
         attachments = [
             {
                 color: '#89CEEB', //インデント線の色
-                title: '以下の内容で新規の ' + type + ' がありました(今はテストだからね)',//インデント内に表示されるタイトル
+                title: '以下の内容で新規の ' + type + ' がありました',//インデント内に表示されるタイトル
                 text: 
 `*ニックネーム* : ${nickname.value}
 *e-mail* : ${email.value}
@@ -107,10 +106,7 @@ function createPayload(){
             }
         ];
     }
-    
-    
-    
-    
+
     // ペイロードのがっちゃんこ
     var payload = {
         'username': username, 
