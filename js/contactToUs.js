@@ -60,7 +60,7 @@ function postMessage() {
     .catch( error => {
         console.log(error);
     });
-  };
+};
 
 
 /**
@@ -68,6 +68,7 @@ function postMessage() {
  * 
  * create the payload for posting message
  * 
+ * @returns value JSON text
  */
 function createPayload(){
     var username = 'contact_to'; //BOTの名前
@@ -105,18 +106,18 @@ function createPayload(){
     };
     
     return JSON.stringify(payload);
-  }
+}
 
-  /**
-   * createAttachments
-   * 
-   * create attachments for the payload 
-   * 
-   * @param {*} msg 
-   * @param {string} clr 
-   * @returns obj
-   */
-  function createAttachments(msg, clr){
+/**
+ * createAttachments
+ * 
+ * create attachments for the payload 
+ * 
+ * @param {*} msg 
+ * @param {string} clr 
+ * @returns obj
+ */
+function createAttachments(msg, clr){
     return attachments = [
         {
             color: clr, //インデント線の色
@@ -127,4 +128,4 @@ function createPayload(){
 *${type}内容* : ${msg}`
         }
     ];
-  }
+}
