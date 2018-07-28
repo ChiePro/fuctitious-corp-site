@@ -23,7 +23,7 @@ send_btn.addEventListener('click', event => {
             // 例外投げる以外にいいロジック思いつかなかった。（ネストは嫌い）
             throw new Exception;
         // 今はお問い合わせに文字が入っているかどうかでしか判別できない
-        } else if(kanso.value.length > 5){
+        } else if(kanso.value.length >= 5){
             type = '問合わせ';
         }
 
@@ -72,6 +72,9 @@ function postMessage() {
 function createPayload(){
     var username = 'contact_to'; //BOTの名前
     var attachments = [];
+    var color = '';
+    var message = '';
+
     if(type == '応募'){
         var activeSkill = '';
 
@@ -84,27 +87,15 @@ function createPayload(){
         // 最後のカンマ消したい
         if(activeSkill.length > 0){ activeSkill = activeSkill.slice( 0, -2 ) }
 
-        attachments = [
-            {
-                color: '#89CEEB', //インデント線の色
-                title: '以下の内容で新規の ' + type + ' がありました',//インデント内に表示されるタイトル
-                text: 
-`*ニックネーム* : ${nickname.value}
-*e-mail* : ${email.value}
-*スキル* : ${activeSkill}`
-            }
-        ];
+        message = activeSkill;
+        color = '#89CEEB';
+
+        attachments = createAttachments(message, color);
     } else {
-        attachments = [
-            {
-                color: '#89CEEB', //インデント線の色
-                title: '以下の内容で新規の ' + type + ' がありました',//インデント内に表示されるタイトル
-                text: 
-`*ニックネーム* : ${nickname.value}
-*e-mail* : ${email.value}
-*お問い合わせ内容* : ${kanso.value}`
-            }
-        ];
+        message = kanso.value;
+        color = '#36a64f';
+
+        attachments = createAttachments(message, color);
     }
 
     // ペイロードのがっちゃんこ
@@ -114,4 +105,26 @@ function createPayload(){
     };
     
     return JSON.stringify(payload);
+  }
+
+  /**
+   * createAttachments
+   * 
+   * create attachments for the payload 
+   * 
+   * @param {*} msg 
+   * @param {string} clr 
+   * @returns obj
+   */
+  function createAttachments(msg, clr){
+    return attachments = [
+        {
+            color: clr, //インデント線の色
+            title: '以下の内容で新規の ' + type + ' がありました',//インデント内に表示されるタイトル
+            text: 
+`*ニックネーム* : ${nickname.value}
+*e-mail* : ${email.value}
+*${type}内容* : ${msg}`
+        }
+    ];
   }
