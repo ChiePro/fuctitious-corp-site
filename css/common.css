@@ -9,6 +9,7 @@
 body{
     text-align: center;
     font-family: "MyFont", Meiryo, sans-serif;
+    background-image: url('../img/block_sky.jpg') !important;
 }
 
 img{
