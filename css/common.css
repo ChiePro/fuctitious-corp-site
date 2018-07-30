@@ -11,6 +11,11 @@ img{
     height: 100%;
 }
 
+h1{
+    color: rgb(46, 46, 46);
+    font-size: 2vw;
+}
+
 .fit_width{
     width: -moz-fit-content;
     width: -webkit-fit-content;
