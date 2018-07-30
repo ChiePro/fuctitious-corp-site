@@ -28,6 +28,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="js/jquery.meanmenu.min.js"></script>
     <script type="text/javascript" src="./js/fakeLoader.min.js"></script>
+    <script type="text/javascript" src="./js/global_nav.js"></script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
         <div class="logo_wrap"><img class="logo_img" src="./img/logo.png" alt="ChiePro"></div>
 
         <div class="global_nav_wrap">
-            <nav class="global_nav mobile_nav">
+            <nav class="global_nav">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -200,7 +201,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
 
-            $('.mobile_nav').meanmenu({
+            $('.global_nav').meanmenu({
                 meanScreenWidth: "750" // 折り畳みメニューを表示させるウィンドウサイズ
             });
 
@@ -218,17 +219,6 @@
                 pause: 6000 // ページの滞在時間(ms)
             });
         });
-
-        // 画面のサイズが変化した場合
-        $(window).resize(function() {
-            // 画面サイズが850px以上か以下で分岐
-            if(window.matchMedia("(max-width: 850px)").matches){
-            $(".logo_img").attr("src","./img/mobile_logo.png"); //500px以下の場合
-                }else{
-            $(".logo_img").attr("src","./img/logo.png");  //500px以上の場合
-            }
-        });
-
     </script>
 
 </body>
