@@ -3,14 +3,25 @@
  */
 
 .about_title h1{
-    margin: 5% 0;
+    margin: 5% auto;
     font-size: 2.5vw;
+    width: 15vw;
+    background: linear-gradient(transparent 50%, #75ff8c 50%);
 }
 
 .about_container{
     display: flex;
     justify-content: center;
     align-self: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+    padding: 0.2em 0.5em;
+    background: rgb(202, 255, 195);
+    box-shadow: 0px 0px 0px 10px rgb(202, 255, 195);
+    border: dashed .2rem #ffc3c3;
+    border-radius: .4vw;
+    z-index: -2;
 }
 
 .about_container p{
@@ -24,7 +35,8 @@
 }
 
 .about_table{
-    width: 60%;
+    position: relative;
+    width: 80%;
     color: rgba(68, 68, 68, 1);
     text-align: left;
 }

@@ -7,6 +7,14 @@
     justify-content: center;
     align-self: center;
     margin-bottom: 10vh;
+    padding: 0.2em 0.5em;
+    background: rgb(202, 255, 195);
+    box-shadow: 0px 0px 0px 10px rgb(202, 255, 195);
+    border: dashed .2rem #ffc3c3;
+    border-radius: .4vw;
+    z-index: -2;
+    width: 80%;
+    margin: 15vh auto;
 }
 
 .members_content p{
