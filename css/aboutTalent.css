@@ -3,7 +3,7 @@
  */
 
 .talent_text p{
-    font-size: 1.1vw;
+    font-size: 2vw;
     margin: 13vh 0;
 }
 
@@ -23,7 +23,7 @@
      }
 
     .talent_text p{
-        font-size: 3vw;
+        font-size: 6vw;
         line-height: 4vh;
     }
 

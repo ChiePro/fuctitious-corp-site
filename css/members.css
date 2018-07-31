@@ -28,7 +28,7 @@
     margin-left: 3vw;
 }
 
-.members_table th, td{
+.members_table th, .members_table td{
     font-size: 1.2vw;
     padding: 1.5vh 1vw;
 }

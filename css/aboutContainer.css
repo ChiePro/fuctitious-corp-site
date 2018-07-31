@@ -4,7 +4,6 @@
 
 .about_title h1{
     margin: 5% 0;
-    color: rgba(68, 68, 68, 1);
     font-size: 2.5vw;
 }
 
@@ -30,9 +29,13 @@
     text-align: left;
 }
 
-.about_table th,td{
-    font-size: 1.2vw;
-    padding: 3% 2%;
+.about_table th{
+    width: 10vw;
+}
+
+.about_table th,.about_table td{
+    font-size: 1.5vw;
+    padding: 2vh 1.3vw;
 }
 
 /**
@@ -53,7 +56,7 @@
         width: 80%;
     }
 
-    .about_table th,td{
+    .about_table th, .about_table td{
         font-size: 3vw;
         line-height: 4vh;
     }
