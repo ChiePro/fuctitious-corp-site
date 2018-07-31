@@ -2,12 +2,6 @@
  *  aboutPurpose style
  */
 
-.about_purpose{
-    color: rgba(68, 68, 68, 1);
-    margin: 0 auto;
-    width: 80%;
-}
-
 .about_text p{
     font-size: 1.3vw;
     padding: 3vh 0;
@@ -34,7 +28,7 @@
      }
 
     .about_text p{
-        font-size: 3vw;
+        font-size: 6vw;
         line-height: 4vh;
     }
 

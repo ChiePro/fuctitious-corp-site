@@ -3,8 +3,9 @@
  */
 
 .talent_text p{
-    font-size: 2vw;
-    margin: 13vh 0;
+    font-size: 1.6vw;
+    margin: 2vh 0;
+    padding: 2vh;
 }
 
 /**

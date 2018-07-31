@@ -3,22 +3,20 @@
  */
 
 .content_question{
-    width: 60vw;
     margin: 0 auto;
-    color: rgb(36, 36, 36);
 }
 
 .content_question h2{
     text-align: left;
     font-size: 1.5vw;
+    margin-left: 15vw;
 }
 
 .content_question p{
-    width: 70vw;
     text-align: left;
-    margin-left: 1vw;
+    margin-left: 20vw;
     font-size: 1.2vw;
-    margin: 5vh 4vw;
+    padding: 3vh 0;
 }
 
 .content_question ul{

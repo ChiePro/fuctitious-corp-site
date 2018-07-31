@@ -7,14 +7,12 @@
     justify-content: center;
     align-self: center;
     margin-bottom: 10vh;
-    padding: 0.2em 0.5em;
-    background: rgb(202, 255, 195);
-    box-shadow: 0px 0px 0px 10px rgb(202, 255, 195);
-    border: dashed .2rem #ffc3c3;
-    border-radius: .4vw;
-    z-index: -2;
     width: 80%;
-    margin: 15vh auto;
+    margin: 13vh auto;
+}
+
+.border_line{
+    border-bottom: double .5vw rgba(121, 255, 139, 0.836);
 }
 
 .members_content p{
