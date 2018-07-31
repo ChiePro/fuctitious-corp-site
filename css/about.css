@@ -8,18 +8,18 @@
     font-size: 2.5vw;
 }
 
-.about_container{
+.about_content{
     display: flex;
     justify-content: center;
     align-self: center;
 }
 
-.about_container p{
+.about_content p{
     justify-content: center;
     align-self: center;
 }
 
-.about_container img{
+.about_content img{
     width: auto;
     height: auto;
 }
@@ -30,7 +30,7 @@
     text-align: left;
 }
 
-.about_table th,td{
+.about_table th, .about_table td{
     font-size: 1.2vw;
     padding: 3% 2%;
 }
@@ -40,21 +40,21 @@
  */
 
 @media only screen and (max-width: 900px) {
-    .about_container img {
+    .about_content img {
         display: none;
      }
 
-     .about_container h1{
+    .about_content h1{
         font-size: 6vw;
         margin-bottom: 1vh;
      }
 
-     .about_table{
+    .about_table{
         color: rgba(68, 68, 68, 1);
         width: 80%;
     }
 
-    .about_table th,td{
+    .about_table th, .about_table td{
         font-size: 2.7vw;
         line-height: 3vh;
     }
