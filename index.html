@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- bxslider -->
@@ -26,7 +26,9 @@
     <!-- script files -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.meanmenu.min.js"></script>
     <script type="text/javascript" src="./js/fakeLoader.min.js"></script>
+    <script type="text/javascript" src="./js/global_nav.js"></script>
 </head>
 
 <body>
@@ -201,6 +203,11 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
+
+            $('.global_nav').meanmenu({
+                meanScreenWidth: "750" // 折り畳みメニューを表示させるウィンドウサイズ
+            });
+
             $("#page_loader").fakeLoader({
                 timeToHide: 1900, // ローディング時間(ms)
                 zIndex: 99999, // zIndex
