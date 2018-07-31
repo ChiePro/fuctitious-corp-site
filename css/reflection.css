@@ -1,0 +1,14 @@
+/**
+ *  reflection style
+ */
+
+.reflection_text{
+    width: 100%;
+    height: 2vh;
+}
+
+.reflection_text p{
+    float: right;
+    font-size: 1vw;
+    color: #3b3b3b;
+}

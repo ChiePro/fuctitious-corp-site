@@ -27,6 +27,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="./js/fakeLoader.min.js"></script>
+    <script type="text/javascript" src="./js/iziModal.min.js"></script>
 </head>
 
 <body>
@@ -41,7 +42,7 @@
             <nav class="global_nav">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
                     <li><a href="#">MEMBERS</a></li>
                     <li><a href="#">ACTIVITY</a></li>
                     <li><a href="#">CONTACT</a></li>
@@ -141,31 +142,408 @@
         </div>
     </div>
 
-    <div id="site_box">
-
     <!-- container -->
-    <div class="layout_margin_b">
-        <p>container</p>
-    </div>
+    <div id="about">
+        <div class="about_title"><h1>ChieProとは</h1></div>
 
-    <!--left right frame-->
-    <div class="l_r_container layout_margin_b">
-        <!-- left container -->
-        <div class="left_container">
-            <p>left-container</p>
+        <div class="about_container">
+            <table class="about_table">
+                <tbody>
+                    <tr>
+                        <th>名称</th>
+                        <td>ChiePro</td>
+                    </tr>
+                    <tr>
+                        <th>代表者名</th>
+                        <td>SHINE</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">活動内容</th>
+                        <td>プログラミング言語やフレームワーク等を勉強したい方へのレクチャー</td>
+                    </tr>
+                    <tr>
+                        <td>開発中等に分からないことがあった箇所についてレクチャー</td>
+                    </tr>
+                    <tr>
+                        <th>設立年月日</th>
+                        <td>2017/11/13</td>
+                    </tr>
+                    <tr>
+                        <th>会員数</th>
+                        <td>9名</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><img src="./img/about_logo.png"></p>
         </div>
 
-        <!-- right container -->
-        <div class="right_container">
-            <p>tight-centainer</p>
+        <!-- purpose -->
+        <div class="about_purpose">
+            <div class="about_title">
+                <h1>活動目的</h1>
+            </div>
+            <div class="about_text">
+                <p>ChiePro では、お互いにプログラミング言語やフレームワーク等について教えあうことで個々の技術力向上を目指しています。</p>
+                <p>一人一人が作りたいものを作り、その中で技術習得し、さらにいいものを作ります。必要であれば、有識者が指導致します。</p>
+                <p>各メンバーがそれぞれの場で活躍できることを願っております。</p>
+            </div>
+            <p><img src="./img/about_purpose.jpg"></p>
+        </div>
+
+        <!-- talent -->
+        <div class="about_talent">
+            <div class="about_title">
+                <h1>求める人材</h1>
+            </div>
+            <div class="talent_text">
+                <p>初心者でも問題なし！経験者優遇！モラルがある方なら誰でも大歓迎です。</p>
+            </div>
         </div>
     </div>
 
+    <!-- members content -->
+    <!-- SHINE -->
+    <div class="members">
+        <div class="about_title"><h1>MEMBERS</h1></div>
+
+        <div class="members_content">
+            <table class="members_table members_table_right">
+                <tbody>
+                    <tr>
+                        <th>・名前</th>
+                        <td>SHINE(リーダー)</td>
+                    </tr>
+                    <tr>
+                        <th>・プログラミング歴</th>
+                        <td>6～7年</td>
+                    </tr>
+                    <tr>
+                        <th>・得意な言語</th>
+                        <td>Java,HTML,CSS,Javascript,PHP,C++等</td>
+                    </tr>
+                    <tr>
+                        <th>・資格</th>
+                        <td>ITﾊﾟｽﾎﾟｰﾄ,基本情報技術者試験,CG-ARTS,Webデザイナー検定 ベーシック等</td>
+                    </tr>
+                    <tr>
+                        <th>メッセージ</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="2" class="messege_line">
+                            当コミュニティ ChiePro の管理者、 SHINE と申します。
+                            皆でアプリ開発とか出来たら面白いよねーとか考えてたり、
+                            プロコンとかアプリ展覧会的なのに出て実績残したいなと考えてたり。
+                            私自身は四六時中プログラミングやってるそんな変態リーダーです。夜露死苦！
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><img src="./img/shine.iocn.png"></p>
+        </div>
+
+        <!-- Diggy -->
+        <div class="members_content">
+            <p><img src="./img/diggy.icon.png"></p>
+            <table class="members_table members_table_left">
+                <tbody>
+                    <tr>
+                        <th>・名前</th>
+                        <td>おすね(Diggy)</td>
+                    </tr>
+                    <tr>
+                        <th>・プログラミング歴</th>
+                        <td>未経験入社なので、10ヶ月目</td>
+                    </tr>
+                    <tr>
+                        <th>・得意な言語</th>
+                        <td>C#</td>
+                    </tr>
+                    <tr>
+                        <th>・資格</th>
+                        <td>ITパスポート</td>
+                    </tr>
+                    <tr>
+                        <th>メッセージ</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="2" class="messege_line">
+                            自分を一言でいうと「自信家」<br>スポーツ、ゲーム、バイト、etc.. 何をやらせても人並み以上に出来ると自負している。<br>
+                            きっと、この業界でもトップクラスのエンジニアになってみせる。
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- regupn -->
+        <div class="members_content">
+
+                <table class="members_table members_table_right">
+                    <tbody>
+                        <tr>
+                            <th>・名前</th>
+                            <td>レグポン</td>
+                        </tr>
+                        <tr>
+                            <th>・プログラミング歴</th>
+                            <td>大学の授業レベルを含めたら、５年</td>
+                        </tr>
+                        <tr>
+                            <th>・得意な言語</th>
+                            <td>C#,PHP,HTML,Java,JavaScript,VBA</td>
+                        </tr>
+                        <tr>
+                            <th>・資格</th>
+                            <td>基本情報処理技術者試験,医療情報技師,FP３級,日商簿記３級</td>
+                        </tr>
+                        <tr>
+                            <th>メッセージ</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="2" class="messege_line">
+                                    もっと面白く、もっと楽しく、もっと無邪気に。そう、まるで放課後の小学生のように。
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><img src="./img/regupon_icon.png"></p>
+
+            </div>
+
+            <!-- regupn -->
+        <div class="members_content">
+            <p><img src="./img/abeno.icon.png"></p>
+            <table class="members_table members_table_left">
+                <tbody>
+                    <tr>
+                        <th>・名前</th>
+                        <td>あべのさん(Web担当)</td>
+                    </tr>
+                    <tr>
+                        <th>・プログラミング歴</th>
+                        <td>4ヶ月</td>
+                    </tr>
+                    <tr>
+                        <th>・得意な言語</th>
+                        <td>HTML5,CSS3</td>
+                    </tr>
+                    <tr>
+                        <th>・資格</th>
+                        <td>　---  </td>
+                    </tr>
+                    <tr>
+                        <th>メッセージ</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="2" class="messege_line">
+                            メンバーの中で最もキャリアが短いです。<br>
+                            このホームページも一から言語を学び完成させました。<br>
+                            様々な言語を学ぶことで、社会に貢献できるようなエンジニアになりたいと考えております。<br>
+                            「未来を恐れず、過去に執着せず、今を生きろ。」<br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
     </div>
+
+    <!-- ACTIVITY -->
+    <!-- Development -->
+    <div class="development">
+        <div class="about_title"><h1>開発実績</h1></div>
+
+        <div class="developmnt_content">
+
+            <!-- 反射神経ゲーム -->
+            <div class="botton_size">
+            <button data-izimodal-open="#reflection">
+                <div>
+                    <img src="./img/100.png">
+                    <p>反射神経ゲーム</p>
+                    <p class="language">(C# WindowsForm)</p>
+                </div>
+            </button>
+            </div>
+            <div id="reflection" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/regupon_icon.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+            <!-- 100マスRPG -->
+            <div class="botton_size">
+            <button data-izimodal-open="#rpg100">
+                <div>
+                    <img src="./img/100.png">
+                    <p>100マスRPGダンジョン</p>
+                    <p class="language">(Java)</p>
+                </div>
+            </button>
+            </div>
+            <div id="rpg100" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/100.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+            <!-- BMI計算機 -->
+            <div class="botton_size">
+            <button data-izimodal-open="#bmi" class="botton">
+                <div>
+                    <img src="./img/100.png">
+                    <p>BMI計算機</p>
+                    <p class="language">(C# WindowsForm)</p>
+                </div>
+            </button>
+            </div>
+            <div id="bmi" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/100.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+            <!-- オウム 神経衰弱 -->
+            <div class="botton_size">
+            <button data-izimodal-open="#orm">
+                <div>
+                    <img src="./img/100.png">
+                    <p>オウムで神経衰弱</p>
+                    <p class="language">(C# WindowsForm)</p>
+                </div>
+            </button>
+            </div>
+            <div id="orm" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img100.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- reflection -->
+    <div class="circle_layout">
+        <div class="about_title"><h1>学習言語</h1></div>
+        <div class="circle_layout_content">
+            <p><img src="./img/htmlcss.png"></p>
+            <p><img src="./img/java.png"></p>
+            <p><img src="./img/javascript.png"></p>
+        </div>
+        <div class="circle_layout_content">
+            <p><img src="./img/python.png"></p>
+            <p><img src="./img/c.png"></p>
+            <p><img src="./img/php.png"></p>
+        </div>
+        <div class="reflection_text"><p>※ ここに記載のあるもの以外にも学習しております。</p></div>
+        </div>
+    </div>
+
+    <!-- tool -->
+    <div class="circle_layout">
+        <div class="about_title"><h1>ChiePro標準ツール</h1></div>
+    </div>
+    <div class="circle_layout_content size_icon">
+        <p><img src="./img/slack.png">slack</p>
+        <p><img src="./img/githun.png">Github</p>
+        <p><img src="./img/ecripse.png">Ecripse</p>
+        <p><img src="./img/Visual StudioCode.png">VScode</p>
+    </div>
+
+    <!-- Q&A-->
+    <div class="content_question">
+        <div class="about_title"><h1>Q&A よくあるご質問</h1></div>
+        <ul>
+            <li><h2>Q.入会料は無料ですか？</h2></li>
+            <li><p>A.はい、無料です。皆様にプログラミングの楽しさを実感していただきたいために、無料とさせていただいております。</p></li>
+
+            <li><h2>Q.プログラミング未経験ですが、入会可能ですか？</h2></li>
+            <li><p>A.はい、可能です。モラルがある方なら誰でも大歓迎です。</p></li>
+
+            <li><h2>Q.学生ですが入会可能ですか？</h2></li>
+            <li><p>A.はい、可能です。学生ならではのアイデアを共有してください！</p></li>
+
+            <li><h2>Q.途中で退会することは可能ですか？</h2></li>
+            <li><p>A.はい、可能です。管理者に一言頂けると幸いです。運営改善のために参考にさせていただきます。</p></li>
+        </ul>
+    </div>
+
+    <!-- form -->
+    <form action="" method="">
+        <div class="content_form">
+            <div class="about_title"><h1>応募・お問い合わせフォーム</h1></div>
+            <div class="content_table">
+                <table class="form_table">
+                    <tr class="lable_design_top form_botton_line">
+                        <td colspan="2"><label><p><input type="radio" name="example" value="応募">応募</label></p></td>
+                        <td colspan="2" class=" table_line"><label><p><input type="radio" name="example" value="お問い合わせ">お問い合わせ</label></p></td>
+                    </tr>
+                    <tr class="form_botton_line">
+                        <th><p>ニックネーム<span class="require">※</span></p></th>
+                        <td colspan="3" class="table_left"><p><input type="text" name="name" size="25" maxlength="20" placeholder="阿倍野　三次" required></p></td>
+                    </tr>
+                    <tr class="form_botton_line">
+                        <th><p>メールアドレス<span class="require">※</span></p></th>
+                        <td colspan="3" class="table_left"><p><input type="email" name="email" size="25" maxlength="45" placeholder="info@example.co.jp" required></p></td>
+                    </tr>
+                    <tr class="form_botton_line">
+                        <th><span><p>メールアドレス</p><p>(確認用)</span><span class="require">※</span></p></th>
+                        <td colspan="3" class="table_left"><p><input type="email" name="email" size="25" maxlength="45" placeholder="info@example.co.jp" required></p></td>
+                    </tr>
+                    <tr>
+                        <th colspan="4"><p>スキル(複数選択可)</p></th>
+                    </tr>
+                    <tr class="lable_design table_center checkbox">
+                        <td><label><p><input type="checkbox" name="skill" value="HTML_CSS"/>HTML&CSS</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="Java"/>Java</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="PHP"/>PHP</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="Javascript"/>Javascript</p></label></td>
+                    </tr>
+                    <tr class="lable_design table_center checkbox">
+                        <td><label><p><input type="checkbox" name="skill" value=".NET(C#/VB)"/>.NET(C#/VB)</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="C/C++"/>C/C++</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="Python"/>Python</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="Ruby"/>Ruby</p></label></td>
+                    </tr>
+                    <tr class="lable_design table_center checkbox">
+                        <td><label><p><input type="checkbox" name="skill" value=".NET(C#/VB)"/>COBOL</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="C/C++"/>Swift</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="Python"/>SQL</p></label></td>
+                        <td><label><p><input type="checkbox" name="skill" value="kaihatu"/>未経験者</p></label></td>
+                    </tr>
+                    <tr class="lable_design table_left checkbox">
+                        <td><label><p><input type="checkbox" name="skill" value="その他">その他</p></td>
+                        <td colspan="3" calss="lable_design_size"><p><input type="text" name="name" size="80" maxlength="30" placeholder="Objective-C,R,Perl,Go"/></p></td>
+                    </tr>
+                    <tr class="form_top_line">
+                        <th colspan="4"><p>お問い合わせ内容</p></th>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="table_center form_botton_line"><textarea name="kanso" rows="7" cols="120" maxlength="500" placeholder="お問い合わせ内容"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="table_center lable_design form_botton_line">
+                            <p>個人情報保護方針</p>
+                            <p><textarea name="kanso" rows="10" cols="120" readonly style="overflow:scroll;" align="left">ChiePro（以下「当運営」）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全メンバーに個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。&#13;&#13;個人情報の管理&#13;当社は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。&#13;&#13;個人情報の利用目的&#13;お客さまからお預かりした個人情報は、当社からのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。&#13;&#13;個人情報の第三者への開示・提供の禁止&#13;当社は、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。&#13;&#13;・お客さまの同意がある場合&#13;・お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合&#13;・法令に基づき開示することが必要である場合&#13;&#13;個人情報の安全対策&#13;当社は、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。&#13;&#13;ご本人の照会&#13;お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。&#13;&#13;法令、規範の遵守と見直し&#13;当社は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。&#13;&#13;お問い合せ&#13;当社の個人情報の取扱に関するお問い合せは下記までご連絡ください。&#13;&#13;ChiePro&#13;Mail:Chiepro2017@example.co.jp&#13;</textarea></p>
+                            <label><p><input type="checkbox" name="skill" value="doui"/>同意する</p></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="table_center form_top_line"><p><button type="submit" name="確認" value="deta">送信する</button></p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
 
     <!-- footer -->
     <footer>
-        <div class="footer_wrap">
+    <div class="footer_wrap">
         <ul>
             <li><h2>ABOUT</h2>
                 <ul>
@@ -214,8 +592,16 @@
                 startSlide: 0,  // 一番初めの画像からスライドをスタート
                 pause: 6000 // ページの滞在時間(ms)
             });
-        });
-    </script>
 
+            $('.modal-options').iziModal({
+                headerColor: '#8fbc8f', //ヘッダー部分の色
+                width: '40%', //横幅
+                overlayColor: 'rgba(0, 0, 0, 0.2)', //モーダルの背景色
+                transitionIn: 'fadeInUp', //表示される時のアニメーション
+                transitionOut: 'fadeOutDown' //非表示になる時のアニメーション
+            });
+        });
+
+    </script>
 </body>
 </html>
