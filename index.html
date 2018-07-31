@@ -28,7 +28,11 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="js/jquery.meanmenu.min.js"></script>
     <script type="text/javascript" src="./js/fakeLoader.min.js"></script>
+<<<<<<< HEAD
     <script type="text/javascript" src="./js/global_nav.js"></script>
+=======
+    <script type="text/javascript" src="./js/iziModal.min.js"></script>
+>>>>>>> origin/59-create-development
 </head>
 
 <body>
@@ -349,6 +353,86 @@
         </div>
     </div>
 
+    <!-- ACTIVITY -->
+    <!-- Development -->
+    <div class="development">
+        <div class="about_title">
+            <h1>開発実績</h1>
+        </div>
+
+        <div class="developmnt_content">
+
+            <!-- 反射神経ゲーム -->
+            <div class="botton_size">
+            <button data-izimodal-open="#reflection">
+                <div>
+                    <img src="./img/100.png">
+                    <p>反射神経ゲーム</p>
+                    <p class="language">(C# WindowsForm)</p>
+                </div>
+            </button>
+            </div>
+            <div id="reflection" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/regupon_icon.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+            <!-- 100マスRPG -->
+            <div class="botton_size">
+            <button data-izimodal-open="#rpg100">
+                <div>
+                    <img src="./img/100.png">
+                    <p>100マスRPGダンジョン</p>
+                    <p class="language">(Java)</p>
+                </div>
+            </button>
+            </div>
+            <div id="rpg100" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/100.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+            <!-- BMI計算機 -->
+            <div class="botton_size">
+            <button data-izimodal-open="#bmi" class="botton">
+                <div>
+                    <img src="./img/100.png">
+                    <p>BMI計算機</p>
+                    <p class="language">(C# WindowsForm)</p>
+                </div>
+            </button>
+            </div>
+            <div id="bmi" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img/100.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+
+            <!-- オウム 神経衰弱 -->
+            <div class="botton_size">
+            <button data-izimodal-open="#orm">
+                <div>
+                    <img src="./img/100.png">
+                    <p>オウムで神経衰弱</p>
+                    <p class="language">(C# WindowsForm)</p>
+                </div>
+            </button>
+            </div>
+            <div id="orm" class="modal-options" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
+                <img src="./img100.png">
+                <p>ここに概要を記載.............................</p>
+                <p>.............................</p>
+                <p>........................</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
     <!-- footer -->
     <footer>
         <div class="footer_wrap">
@@ -405,8 +489,16 @@
                 startSlide: 0,  // 一番初めの画像からスライドをスタート
                 pause: 6000 // ページの滞在時間(ms)
             });
-        });
-    </script>
 
+            $('.modal-options').iziModal({
+            headerColor: '#8fbc8f', //ヘッダー部分の色
+            width: '40%', //横幅
+            overlayColor: 'rgba(0, 0, 0, 0.2)', //モーダルの背景色
+            transitionIn: 'fadeInUp', //表示される時のアニメーション
+            transitionOut: 'fadeOutDown' //非表示になる時のアニメーション
+            });
+        });
+
+    </script>
 </body>
 </html>
