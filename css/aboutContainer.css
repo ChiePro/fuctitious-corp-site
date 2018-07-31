@@ -2,6 +2,15 @@
  *  aboutContainer style
  */
 
+<<<<<<< HEAD
+=======
+.about_title h1{
+    margin: 7vh 0;
+    color: rgba(68, 68, 68, 1);
+    font-size: 2.5vw;
+}
+
+>>>>>>> origin/55-create-talent
 .about_container{
     display: flex;
     justify-content: center;
@@ -44,13 +53,12 @@
      }
 
      .about_table{
-        color: rgba(68, 68, 68, 1);
         width: 80%;
     }
 
     .about_table th,td{
-        font-size: 2.7vw;
-        line-height: 3vh;
+        font-size: 3vw;
+        line-height: 4vh;
     }
 
     .about_table th{
