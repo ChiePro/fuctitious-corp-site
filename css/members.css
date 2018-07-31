@@ -28,7 +28,7 @@
     margin-left: 3vw;
 }
 
-.members_table th, td{
+.members_table th, .members_table td{
     font-size: 1.2vw;
     padding: 1.5vh 1vw;
 }
@@ -75,7 +75,7 @@
         width: 90%;
     }
 
-    .members_table th,td{
+    .members_table th,.members_table td{
         font-size: 3vw;
         line-height: 2vh;
         color: rgba(0, 0, 0, 1);
