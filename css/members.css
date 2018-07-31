@@ -1,0 +1,89 @@
+/**
+ *  members style
+ */
+
+.members_content{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 10vh;
+}
+
+.members_content p{
+    justify-content: center;
+    align-self: center;
+}
+
+.members_table{
+    color: rgba(68, 68, 68, 1);
+    text-align: left;
+    width: 60vw;
+}
+
+.members_table_right{
+    margin-right: 3vw;
+}
+
+.members_table_left{
+    margin-left: 3vw;
+}
+
+.members_table th, .members_table td{
+    font-size: 1.2vw;
+    padding: 1.5vh 1vw;
+}
+
+.members_table th{
+    width: 12vw;
+}
+
+.messege_line{
+    line-height: 4vh;
+}
+
+.members_content p img{
+    width: auto;
+    height: auto;
+    border-radius: 30vh;
+}
+
+/**
+ *  モバイル用のレイアウト
+ */
+
+@media only screen and (max-width: 900px) {
+
+    .members_content{
+        position: relative;
+    }
+
+    .members_content  p img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 5vh;
+        z-index: -1;
+        opacity: .15;
+     }
+
+     .members_content h1{
+        font-size: 6vw;
+        margin-bottom: 1vh;
+     }
+
+     .members_table{
+        width: 90%;
+    }
+
+    .members_table th,.members_table td{
+        font-size: 3vw;
+        line-height: 2vh;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .members_table th{
+        width: 30vw;
+    }
+
+}
+
