@@ -1,0 +1,14 @@
+/**
+ *  top_Introduction style
+ */
+
+.top_introduction h1{
+    margin: 30vh auto 3vh auto;
+    padding-top: 2vh;
+    font-size: 3vw;
+}
+
+.top_introduction p{
+    font-size: 1.5vw;
+    padding: 3vh 0;
+}

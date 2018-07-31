@@ -9,7 +9,10 @@
 body{
     text-align: center;
     font-family: "MyFont", Meiryo, sans-serif;
-    background-image: url('../img/block_sky.jpg') !important;
+    background: url("../img/background.png") center 100px no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(71, 71, 71, 1);
 }
 
 img{
@@ -20,6 +23,14 @@ img{
 h1{
     color: rgb(46, 46, 46);
     font-size: 2vw;
+}
+
+.frame{
+    color: rgba(68, 68, 68, 1);
+    margin: 0 auto;
+    background-color: rgba(236, 255, 231, 0.7);
+    border-radius: 3vw;
+    width: 90%;
 }
 
 .fit_width{
