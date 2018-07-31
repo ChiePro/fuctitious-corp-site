@@ -67,3 +67,16 @@ header,
     padding: .1vh .1vw;
     color: rgba(0, 0, 0 ,1);
 }
+
+/**
+* モバイル用
+*/
+@media screen and (max-width: 750px) {
+    .fixed {
+        display: none;
+    }
+
+    header{
+        width: 30%;
+    }
+}
