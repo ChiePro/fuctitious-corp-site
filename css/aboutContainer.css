@@ -1,0 +1,68 @@
+/**
+ *  aboutContainer style
+ */
+
+.about_title h1{
+    margin: 5% 0;
+    font-size: 2.5vw;
+}
+
+.about_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.about_container p{
+    justify-content: center;
+    align-self: center;
+}
+
+.about_container p img{
+    width: auto;
+    height: auto;
+}
+
+.about_table{
+    width: 60%;
+    color: rgba(68, 68, 68, 1);
+    text-align: left;
+}
+
+.about_table th{
+    width: 10vw;
+}
+
+.about_table th,.about_table td{
+    font-size: 1.5vw;
+    padding: 2vh 1.3vw;
+}
+
+/**
+ *  モバイル用のレイアウト
+ */
+
+@media only screen and (max-width: 900px) {
+    .about_container img {
+        display: none;
+     }
+
+     .about_container h1{
+        font-size: 4vw;
+        margin-bottom: 1vh;
+     }
+
+     .about_table{
+        width: 80%;
+    }
+
+    .about_table th, .about_table td{
+        font-size: 3vw;
+        line-height: 4vh;
+    }
+
+    .about_table th{
+        width: 25%;
+    }
+}
+

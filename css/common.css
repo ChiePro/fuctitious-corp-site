@@ -1,10 +1,16 @@
 /**
  *  common style
  */
+ @font-face {
+    font-family: "MyFont";
+    src: url('../media/fonts/FLOPDesignFont.ttf');
+  }
 
 body{
     text-align: center;
- }
+    font-family: "MyFont", Meiryo, sans-serif;
+    background-image: url('../img/block_sky.jpg') !important;
+}
 
 img{
     width: 100%;

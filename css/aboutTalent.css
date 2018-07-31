@@ -1,0 +1,30 @@
+/**
+ *  aboutTalent style
+ */
+
+.talent_text p{
+    font-size: 2vw;
+    margin: 13vh 0;
+}
+
+/**
+ *  モバイル用のレイアウト
+ */
+
+@media only screen and (max-width: 1200px) {
+
+    .about_purpose img {
+        display: none;
+     }
+
+    .about_title h1{
+        font-size: 6vw;
+        margin-bottom: 1vh;
+     }
+
+    .talent_text p{
+        font-size: 6vw;
+        line-height: 4vh;
+    }
+
+}

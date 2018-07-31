@@ -1,0 +1,47 @@
+/**
+ *  development style
+ */
+
+.developmnt_content div img{
+    width: auto;
+    height: auto;
+}
+
+.developmnt_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.developmnt_content p {
+    width: 15vw;
+    line-height: 3vh;
+    margin-bottom: 2vh;
+}
+
+/**
+ *  モバイル用のレイアウト
+ */
+
+@media only screen and (max-width: 1000px) {
+    .development div img {
+        width: 100%;
+        border-radius: 35vh;
+     }
+
+    .developmnt_content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .botton_size{
+        width: 40%;
+        margin-bottom: 2vh;
+    }
+
+     .development p{
+         display: none;
+     }
+
+}
+
+
