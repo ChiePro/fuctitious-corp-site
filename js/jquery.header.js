@@ -8,7 +8,7 @@
         const fixedClassName ='fixed';
         // MEMO: 画像スライダーと少し被るくらいで表示
         /* fixedBorder 微調整用 */
-        const fixedTweak = 3300;
+        const fixedTweak = 700;
         /* この値以上スクロールすると header を固定する */
         const fixedBorder = $('#top_image_slider').outerHeight(true);
 
