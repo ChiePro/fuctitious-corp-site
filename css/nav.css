@@ -16,11 +16,9 @@
 }
 
 .global_nav ul li{
-    border-left: solid .4rem rgba(123, 238, 148 , 1);
     float: left;
     padding: 1vh 0;
     width: 13vw;
-    border-radius: 3rem;
  }
 
  .global_nav ul li :hover{

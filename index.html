@@ -28,6 +28,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="./js/fakeLoader.min.js"></script>
     <script type="text/javascript" src="./js/iziModal.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.header.js"></script>
 </head>
 
 <body>
@@ -52,94 +53,15 @@
     </header>
 
     <!-- image slider -->
-    <div id="top_image_slider" class="image_slider layout_margin_b">
-        <div class="slider_wrap">
-
-            <!-- 1 枚目 -->
-            <section>
-                <div class="tips slider_tips_absolute fit_width">
-                    <h1>ChiePro メンバー募集中</h1>
-                    <p>初心者の方でも大歓迎！</p>
-                    <p>対応言語多数</p>
-                </div>
-
-                <img src="./media/imgs/topSlider/top_img1.jpg" alt="ChiePro メンバー募集中" class="slider_content">
-            </section>
-
-            <!-- 2 枚目 -->
-            <section>
-                <div class="tips_solicit">
-                    <div class="tips slider_tips_absolute fit_width">
-                        <p>あなたの小さなアイデアで世界は変わる。</p>
-                        <p>「あったらいいな」、「こんなの作りたい」を自分の手で作ってみよう。</p>
-                        <p>大きな一歩を踏み出し、私たちと共にプログラマーの道を歩みませんか？</p>
-                    </div>
-                 </div>
-
-                <img src="./media/imgs/topSlider/top_img2.jpg" alt="あなたの小さなアイデアで世界は変わる。" class="slider_content">
-            </section>
-
-            <!-- 3 枚目 -->
-            <section>
-                <div class="slider_tips_absolute">
-                    <div class="tips tips_title fit_width"><p>学習プログラミング言語</p></div>
-
-                    <div class="tips program_lang_icon fit_width">
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <i class="fab fa-php"></i>
-                        <i class="fab fa-js"></i>
-                        <i class="fab fa-java"></i>
-                    </div>
-                </div>
-
-                <a href="#">
-                    <img src="./media/imgs/topSlider/top_img3.jpg" alt="学習プログラミング言語" class="slider_content">
-                </a>
-            </section>
-
-            <!-- 4 枚目 -->
-            <section>
-                <div class="slider_tips_absolute">
-                    <div class="tips tips_title fit_width"><p>ChiePro 標準ツール</p></div>
-
-                    <div class="tips_table_wrap">
-                        <table class="tips_table">
-                        <tbody>
-                        <tr>
-                            <th>チャットツール</th>
-                            <td>
-                                <a href="https://slack.com/intl/ja-jp" target="_blank">Slack</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>バージョン管理ツール</th>
-                            <td>
-                                <a href="https://github.com/" target="_blank">Github</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th rowspan="2">統合開発環境</th>
-                            <td>
-                                <a href="https://www.eclipse.org/" target="_blank">Eclipse</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <a href="#">
-                    <img src="./media/imgs/topSlider/top_img4.jpg" alt="ChiePro 標準ツール" class="slider_content">
-                </a>
-            </section>
-
-        </div>
+    <div id="top_image" class="top_image layout_margin_b top_backColor">
+            <div class="top_title">
+                <p>プログラミング</p>
+            </div>
+            <div class="top_text">
+                <h1>ChiePro</h1>
+                <p>IT エンジニアのコミュニティ</p>
+            </div>
+        <img src="./media/imgs/topSlider/top_img1.jpg" height="1000" alt="ChiePro メンバー募集中" class="slider_content">
     </div>
 
     <!-- top text-->
@@ -597,13 +519,6 @@
                 spinner: "spinner7",
                 bgColor: "rgba(255, 255, 255, 1)" // 背景の色
             })
-
-            $('.slider_wrap').bxSlider({
-                auto: true,
-                pager: false, // スライドバー削除
-                startSlide: 0,  // 一番初めの画像からスライドをスタート
-                pause: 6000 // ページの滞在時間(ms)
-            });
 
             $('.modal-options').iziModal({
                 headerColor: '#8fbc8f', //ヘッダー部分の色

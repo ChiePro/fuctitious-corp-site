@@ -6,7 +6,6 @@
 @import "./reset.css";
 @import "./layout.css";
 @import "./fakeLoader.css";
-@import "./slider.css";
 @import "./logo.css";
 @import "./nav.css";
 @import "./footer.css";
@@ -20,3 +19,4 @@
 @import "./question.css";
 @import "./form.css";
 @import "./top_introduction.css";
+@import "./top_image.css";

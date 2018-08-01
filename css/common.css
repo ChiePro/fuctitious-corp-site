@@ -9,9 +9,6 @@
 body{
     text-align: center;
     font-family: "MyFont", Meiryo, sans-serif;
-    background: url("../img/background.png") center 100px no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     color: rgba(71, 71, 71, 1);
 }
 

@@ -10,7 +10,7 @@
         /* fixedBorder 微調整用 */
         const fixedTweak = 3300;
         /* この値以上スクロールすると header を固定する */
-        const fixedBorder = $('#top_image_slider').outerHeight(true);
+        const fixedBorder = $('#top_image').outerHeight(true);
 
         $(window).scroll(function() {
             /* fixedBorder の値以上スクロールしたら */
