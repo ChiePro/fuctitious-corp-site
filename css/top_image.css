@@ -1,0 +1,38 @@
+/**
+ *  top_image style
+ */
+.top_image{
+    position: relative;
+}
+
+.top_title{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 25%;
+    text-align: center;
+    width: 100%;
+    font-size: 4vw;
+ }
+
+.top_text{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 10vh;
+}
+
+.top_text h1{
+    font-size: 3.5vw;
+}
+
+.top_text p{
+    font-size: 2vw;
+}
+
+.top_backColor div{
+    background: rgba(102, 102, 102, 0.5);
+    padding: 3vh 0;
+}

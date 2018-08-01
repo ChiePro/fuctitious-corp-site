@@ -1,0 +1,24 @@
+/**
+ *  question style
+ */
+
+.content_question{
+    margin: 0 auto;
+}
+
+.content_question h2{
+    text-align: left;
+    font-size: 1.5vw;
+    margin-left: 15vw;
+}
+
+.content_question p{
+    text-align: left;
+    margin-left: 20vw;
+    font-size: 1.2vw;
+    padding: 3vh 0;
+}
+
+.content_question ul{
+    list-style: none;
+}
