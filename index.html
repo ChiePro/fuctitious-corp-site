@@ -478,18 +478,18 @@
         <div class="content_form">
             <div class="about_title"><h1>応募・お問い合わせフォーム</h1></div>
             <div class="content_table">
-                <table class="form_table">
+                <table class="form_table" id="top_form_table">
                     <tr class="lable_design_top form_botton_line">
-                        <td colspan="2"><label><p><input type="radio" name="example" value="応募">応募</label></p></td>
+                        <td colspan="2"><label><p><input type="radio" name="example" value="応募" checked="true">応募</label></p></td>
                         <td colspan="2" class=" table_line"><label><p><input type="radio" name="example" value="お問い合わせ">お問い合わせ</label></p></td>
                     </tr>
                     <tr class="form_botton_line">
                         <th><p>ニックネーム<span class="require">※</span></p></th>
-                        <td colspan="3" class="table_left"><p><input type="text" name="name" size="25" maxlength="20" placeholder="阿倍野　三次" required></p></td>
+                        <td colspan="3" class="table_left"><p><input type="text" name="name" id="nickname" size="25" maxlength="20" placeholder="阿倍野　三次" required></p></td>
                     </tr>
                     <tr class="form_botton_line">
                         <th><p>メールアドレス<span class="require">※</span></p></th>
-                        <td colspan="3" class="table_left"><p><input type="email" name="email" size="25" maxlength="45" placeholder="info@example.co.jp" required></p></td>
+                        <td colspan="3" class="table_left"><p><input type="email" name="email" id="email" size="25" maxlength="45" placeholder="info@example.co.jp" required></p></td>
                     </tr>
                     <tr class="form_botton_line">
                         <th><span><p>メールアドレス</p><p>(確認用)</span><span class="require">※</span></p></th>
@@ -518,23 +518,23 @@
                     </tr>
                     <tr class="lable_design table_left checkbox">
                         <td><label><p><input type="checkbox" name="skill" value="その他">その他</p></td>
-                        <td colspan="3" calss="lable_design_size"><p><input type="text" name="name" size="80" maxlength="30" placeholder="Objective-C,R,Perl,Go"/></p></td>
+                        <td colspan="3" calss="lable_design_size"><p><input type="text" name="name" id="etcetera_skill" size="80" maxlength="30" placeholder="Objective-C,R,Perl,Go"/></p></td>
                     </tr>
                     <tr class="form_top_line">
                         <th colspan="4"><p>お問い合わせ内容</p></th>
                     </tr>
                     <tr>
-                        <td colspan="4" class="table_center form_botton_line"><textarea name="kanso" rows="7" cols="120" maxlength="500" placeholder="お問い合わせ内容"></textarea></td>
+                        <td colspan="4" class="table_center form_botton_line"><textarea name="kanso" id="contact_content" rows="7" cols="120" maxlength="500" placeholder="お問い合わせ内容"></textarea></td>
                     </tr>
                     <tr>
                         <td colspan="4" class="table_center lable_design form_botton_line">
                             <p>個人情報保護方針</p>
                             <p><textarea name="kanso" rows="10" cols="120" readonly style="overflow:scroll;" align="left">ChiePro（以下「当運営」）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全メンバーに個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。&#13;&#13;個人情報の管理&#13;当社は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。&#13;&#13;個人情報の利用目的&#13;お客さまからお預かりした個人情報は、当社からのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。&#13;&#13;個人情報の第三者への開示・提供の禁止&#13;当社は、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。&#13;&#13;・お客さまの同意がある場合&#13;・お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合&#13;・法令に基づき開示することが必要である場合&#13;&#13;個人情報の安全対策&#13;当社は、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。&#13;&#13;ご本人の照会&#13;お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。&#13;&#13;法令、規範の遵守と見直し&#13;当社は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。&#13;&#13;お問い合せ&#13;当社の個人情報の取扱に関するお問い合せは下記までご連絡ください。&#13;&#13;ChiePro&#13;Mail:Chiepro2017@example.co.jp&#13;</textarea></p>
-                            <label><p><input type="checkbox" name="skill" value="doui"/>同意する</p></label>
+                            <label><p><input type="checkbox" id="agree" name="agree" value="doui"/>同意する</p></label>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="4" class="table_center form_top_line"><p><button type="submit" name="確認" value="deta">送信する</button></p></td>
+                        <td colspan="4" class="table_center form_top_line"><p><button type="button" id="send_btn" name="確認" value="data">送信する</button></p></td>
                     </tr>
                 </table>
             </div>
@@ -573,6 +573,7 @@
     </footer>
 
     <script type="text/javascript" src="./js/jquery.header.js"></script>
+    <script type="text/javascript" src="./js/contactToUs.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function(){
