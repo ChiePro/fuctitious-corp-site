@@ -6,12 +6,14 @@ let email = document.getElementById('email');
 let nickname = document.getElementById('nickname');
 // スキル
 let skills = document.getElementsByName('skill');
+// その他スキル
+let etcetera_skill = document.getElementById('etcetera_skill');
 // お問合わせ内容
 let contact_content = document.getElementById('contact_content');
 // 同意するチェック
 let agree_check = document.getElementById('agree');
 // 問い合わせ種別
-let type = '応募';
+let content_type = '応募';
 // フォーム
 let form_table = document.getElementById('top_form_table');
 // フォーム種別が応募かどうか
@@ -25,7 +27,7 @@ send_btn.addEventListener('click', () => {
     try {
         // フォーム種別判定
         if ( application_check[1].checked ){
-            type = '問い合わせ';
+            content_type = '問い合わせ';
         }
         
         if (agree_check.checked) {
@@ -77,7 +79,7 @@ function createPayload() {
     let attachments = [];
     let message = '';
 
-    if (type == '応募') {
+    if (content_type == '応募') {
         let activeSkill = '';
 
         // チェックのついたスキルを文字列結合
@@ -90,8 +92,8 @@ function createPayload() {
         if (activeSkill.length > 0) { 
             activeSkill = activeSkill.slice( 0, -2 ) 
         }
-
-        message = activeSkill;
+        // その他欄に入力した内容もがっちゃんこ
+        message = activeSkill + etcetera_skill.value;
 
         attachments = createAttachments(message, application_color);
     } else {
