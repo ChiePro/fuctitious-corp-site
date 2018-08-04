@@ -1,64 +1,66 @@
 // 送信ボタン
-var send_btn = document.getElementById('send_btn');
-// email
-var email = document.getElementById('email');
+let send_btn = document.getElementById('send_btn');
+// Eメール
+let email = document.getElementById('email');
 // ニックネーム
-var nickname = document.getElementById('name');
+let nickname = document.getElementById('nickname');
 // スキル
-var skills = document.getElementsByName('skill');
+let skills = document.getElementsByName('skill');
 // お問合わせ内容
-var kanso = document.getElementById('kanso');
+let contact_content = document.getElementById('contact_content');
 // 同意するチェック
-var agree_check = document.getElementById('agree');
+let agree_check = document.getElementById('agree');
 // 問い合わせ種別
-var type = '応募';
+let type = '応募';
 // フォーム
-var form_table = document.getElementById('form_table');
+let form_table = document.getElementById('top_form_table');
+// フォーム種別が応募かどうか
+let application_check = document.getElementsByName('example');
+// SLACK表示用カラー
+const application_color = '#89CEEB';
+const contact_color     = '#36a64f';
 
-send_btn.addEventListener('click', event => {
-    try{
-        // 入力チェック
-        if(kanso.value.length < 5 && kanso.value.length > 0){
-            alert('お問合わせ内容には5文字以上入力してください。');
-            // 例外投げる以外にいいロジック思いつかなかった。（ネストは嫌い）
-            throw new Exception;
-        // 今はお問い合わせに文字が入っているかどうかでしか判別できない
-        } else if(kanso.value.length >= 5){
-            type = '問合わせ';
+// 送信ボタンのクリックイベントハンドラ
+send_btn.addEventListener('click', () => {
+    try {
+        // フォーム種別判定
+        if ( application_check[1].checked ){
+            type = '問い合わせ';
         }
-
-        if(agree_check.checked){
+        
+        if (agree_check.checked) {
             postMessage();
         } else {
             alert('個人情報保護方針をご一読の上、同意するにチェックしてください。');
         }
-    }catch{
+    } catch {
     }
 });
 
 /**
  * postMessage
  * 
- * post a message(for applications, contact us) to the #contact of chiebukuro-dev Workspace in Slack
+ * SLACKにポストする関数
  * 
  */
 function postMessage() {
-    
-    var header = {
+    // webhookにのせる情報の準備
+    let header = {
         'Content-Type' : 'application/json',
     };
+    let method = 'POST';
+    let body = createPayload();
 
-    var method = 'POST';
-
-    var body = createPayload();
-    fetch('https://hooks.slack.com/services/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', {method, header, body})
-    .then((res) => {
+    // まとめる
+    let obj = { method, header, body };
+    fetch('https://hooks.slack.com/services/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', obj )
+    .then(() => {
         console.log('post request');
-        var element = "<h1>ありがとうございます！</h1><p>記載いただいたメールアドレスに折り返しご連絡いたします。</p>";
+        let element = "<h1>ありがとうございます！</h1><p>記載いただいたメールアドレスに折り返しご連絡いたします。</p>";
         form_table.innerHTML = element;
     })
     .catch( error => {
-        console.log(error);
+        console.log( error );
     });
 };
 
@@ -66,18 +68,17 @@ function postMessage() {
 /**
  * createPayload
  * 
- * create the payload for posting message
+ * ペイロードの作成
  * 
  * @returns value JSON text
  */
-function createPayload(){
-    var username = 'contact_to'; //BOTの名前
-    var attachments = [];
-    var color = '';
-    var message = '';
+function createPayload() {
+    let bot_name = 'contact_to';
+    let attachments = [];
+    let message = '';
 
-    if(type == '応募'){
-        var activeSkill = '';
+    if (type == '応募') {
+        let activeSkill = '';
 
         // チェックのついたスキルを文字列結合
         skills.forEach(skill => {
@@ -86,22 +87,22 @@ function createPayload(){
             }
         });
         // 最後のカンマ消したい
-        if(activeSkill.length > 0){ activeSkill = activeSkill.slice( 0, -2 ) }
+        if (activeSkill.length > 0) { 
+            activeSkill = activeSkill.slice( 0, -2 ) 
+        }
 
         message = activeSkill;
-        color = '#89CEEB';
 
-        attachments = createAttachments(message, color);
+        attachments = createAttachments(message, application_color);
     } else {
-        message = kanso.value;
-        color = '#36a64f';
+        message = contact_content.value;
 
-        attachments = createAttachments(message, color);
+        attachments = createAttachments(message, contact_color);
     }
 
     // ペイロードのがっちゃんこ
-    var payload = {
-        'username': username, 
+    let payload = {
+        'username': bot_name, 
         'attachments': attachments 
     };
     
@@ -117,7 +118,7 @@ function createPayload(){
  * @param {string} clr 
  * @returns obj
  */
-function createAttachments(msg, clr){
+function createAttachments(msg, clr) {
     return attachments = [
         {
             color: clr, //インデント線の色
