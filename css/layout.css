@@ -2,10 +2,6 @@
  *  layout style
  */
 
-#site_box{
-    margin: 0 10vw;
-}
-
 header{
     width: 100vw;
     height: 10vh;
@@ -17,22 +13,10 @@ header{
     width: 100%;
 }
 
-.l_r_container{
-    height: 30vh;
-}
-
-.left_container{
-    float: left;
-}
-
-.right_container{
-    float: right;
-}
-
 .layout_margin_b{
-    margin-bottom: 2vh;
+    height: 15%;
 }
 
 .size_container{
-    width: 45%;
+    width: 100%;
 }
